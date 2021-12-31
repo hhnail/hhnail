@@ -147,7 +147,10 @@ export function ApiList() {
         />
       </Col>
       <Col span={18} push={1}>
-        <Table columns={columns} dataSource={data}/>
+        <Table
+          columns={columns}
+          dataSource={data}
+        />
       </Col>
     </Row>
   </>

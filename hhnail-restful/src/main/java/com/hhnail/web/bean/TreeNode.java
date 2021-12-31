@@ -7,8 +7,10 @@ import lombok.Data;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 @Data
-public class TreeNode {
+public class TreeNode extends HTreeNode {
 
 	@TableField(exist = true)
 	private Integer treeId;
