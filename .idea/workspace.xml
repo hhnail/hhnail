@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/algorithm/leetcode/plan01/Dichotomy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/util/HArrayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/algorithm/leetcode/plan01/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/algorithm/leetcode/plan01/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/MptestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/MptestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/controller/TreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/controller/TreeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/util/HStringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/util/HStringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/util/HTreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/util/HTreeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/component/Home/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/component/ProductList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/.umirc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -73,6 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hhnail-ui/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -84,11 +75,17 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hhnail" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FirstBadVersion">
+  <component name="RunManager" selected="Spring Boot.MptestApplication">
     <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode.plan01.FirstBadVersion" />
       <module name="mptest" />
@@ -130,8 +127,16 @@
       <option name="presentableId" value="Default" />
       <updated>1640857025149</updated>
       <workItem from="1640857026453" duration="1761000" />
-      <workItem from="1640858950994" duration="11616000" />
+      <workItem from="1640858950994" duration="15173000" />
     </task>
+    <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
+      <created>1640942751491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640942751491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,11 +156,20 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/hhnail-restful" />
     </ignored-roots>
+    <MESSAGE value="【算法】二分查找；首次错误版本【前端】构建基本路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="【算法】二分查找；首次错误版本【前端】构建基本路由" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Notifications" timestamp="1640943457919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1640943457919" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640920531748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -172,42 +186,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1640941491757" />
+    <state x="212" y="0" key="CommitChangelistDialog2" timestamp="1640942748581">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="212" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1640942748581" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="469" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1640870710588" />
-    <state width="1237" height="124" key="GridCell.Tab.0.bottom" timestamp="1640941121210">
+    <state width="1237" height="203" key="GridCell.Tab.0.bottom" timestamp="1640952519122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640941121210" />
-    <state width="1237" height="124" key="GridCell.Tab.0.center" timestamp="1640941121210">
+    <state width="1237" height="203" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640952519122" />
+    <state width="1237" height="203" key="GridCell.Tab.0.center" timestamp="1640952519121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1640941121210" />
-    <state width="1237" height="124" key="GridCell.Tab.0.left" timestamp="1640941121210">
+    <state width="1237" height="203" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1640952519121" />
+    <state width="1237" height="203" key="GridCell.Tab.0.left" timestamp="1640952519121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1640941121210" />
-    <state width="1237" height="124" key="GridCell.Tab.0.right" timestamp="1640941121210">
+    <state width="1237" height="203" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1640952519121" />
+    <state width="1237" height="203" key="GridCell.Tab.0.right" timestamp="1640952519122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="124" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1640941121210" />
-    <state width="1237" height="228" key="GridCell.Tab.1.bottom" timestamp="1640923263350">
+    <state width="1237" height="203" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1640952519122" />
+    <state width="1237" height="203" key="GridCell.Tab.1.bottom" timestamp="1640952519122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="228" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640923263350" />
-    <state width="1237" height="228" key="GridCell.Tab.1.center" timestamp="1640923263349">
+    <state width="1237" height="203" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640952519122" />
+    <state width="1237" height="203" key="GridCell.Tab.1.center" timestamp="1640952519122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="228" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1640923263349" />
-    <state width="1237" height="228" key="GridCell.Tab.1.left" timestamp="1640923263349">
+    <state width="1237" height="203" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1640952519122" />
+    <state width="1237" height="203" key="GridCell.Tab.1.left" timestamp="1640952519122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="228" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1640923263349" />
-    <state width="1237" height="228" key="GridCell.Tab.1.right" timestamp="1640923263349">
+    <state width="1237" height="203" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1640952519122" />
+    <state width="1237" height="203" key="GridCell.Tab.1.right" timestamp="1640952519122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="228" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1640923263349" />
+    <state width="1237" height="203" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1640952519122" />
+    <state x="221" y="84" key="IDE.errors.dialog" timestamp="1640951630915">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1640951630915" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1640858935296">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -216,5 +238,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1640858037288" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1640943161863">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1640943161863" />
   </component>
 </project>

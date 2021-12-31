@@ -26,7 +26,10 @@ export default function HomePage() {
   };
 
   return <>
-    <Layout>
+    <Layout style={{
+      overflowY: "hidden",
+      height: '100%',
+    }}>
       {/*============================ 侧边栏 ============================*/}
       <Sider trigger={null} collapsible collapsed={collapsed} style={{}}>
         <div className="logo"/>
@@ -53,16 +56,17 @@ export default function HomePage() {
         <Header style={{padding: 0}}>
           {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
             className: 'trigger',
+            style:{color:'white'},
             onClick: toggle,
           })}
         </Header>
 
         <Content style={{
-          margin: '24px 16px',
           padding: 24,
-          minHeight: 280,
-        }}
-        >
+          height: 495,
+          width:998,
+          overflowY: "auto",
+        }}>
           <Switch>
             <Route path="/ApiList" component={ApiList}/>
           </Switch>
