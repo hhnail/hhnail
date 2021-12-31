@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 // 扫描DAO包
-@MapperScan("com.hhnail.pkg.mapper")
+@MapperScan("com.hhnail.web.mapper")
 public class MptestApplication {
 
     public static void main(String[] args) {

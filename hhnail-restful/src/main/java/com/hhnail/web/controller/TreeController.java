@@ -2,7 +2,7 @@ package com.hhnail.web.controller;
 
 import com.hhnail.web.bean.TreeNode;
 import com.hhnail.web.service.TreeService;
-import com.hhnail.web.util.HTreeUtil;
+import com.hhnail.util.HTreeUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

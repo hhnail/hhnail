@@ -1,4 +1,4 @@
-package com.hhnail.web.util;
+package com.hhnail.util;
 
 public class HStringUtil {
 

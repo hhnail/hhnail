@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/algorithm/leetcode/plan01/Dichotomy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/util/HArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/algorithm/leetcode/plan01/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/algorithm/leetcode/plan01/FirstBadVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/MptestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/MptestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/controller/TreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/controller/TreeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/util/HStringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/util/HStringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/util/HTreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/util/HTreeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/component/Home/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/component/ProductList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="XSLT Stylesheet" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hhnail-restful" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -30,19 +57,51 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectId" id="23039VA9DhYO05XLrvFrNwxLBHB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hhnail" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FirstBadVersion">
+    <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode.plan01.FirstBadVersion" />
+      <module name="mptest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhnail.algorithm.leetcode.plan01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MptestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mptest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhnail.web.MptestApplication" />
@@ -50,6 +109,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MptestApplication" />
+      <item itemvalue="Application.FirstBadVersion" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FirstBadVersion" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,17 +129,92 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640857025149</updated>
-      <workItem from="1640857026453" duration="400000" />
+      <workItem from="1640857026453" duration="1761000" />
+      <workItem from="1640858950994" duration="11616000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/hhnail-restful" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="142" y="0" key="SettingsEditor" timestamp="1640857342673">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640920531748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1640857342673" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1640920531748" />
+    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1640858068570">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1640858068570" />
+    <state x="425" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1640858071049">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="425" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1640858071049" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640941491757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1640941491757" />
+    <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="469" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1640870710588" />
+    <state width="1237" height="124" key="GridCell.Tab.0.bottom" timestamp="1640941121210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640941121210" />
+    <state width="1237" height="124" key="GridCell.Tab.0.center" timestamp="1640941121210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1640941121210" />
+    <state width="1237" height="124" key="GridCell.Tab.0.left" timestamp="1640941121210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1640941121210" />
+    <state width="1237" height="124" key="GridCell.Tab.0.right" timestamp="1640941121210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1640941121210" />
+    <state width="1237" height="228" key="GridCell.Tab.1.bottom" timestamp="1640923263350">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="228" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640923263350" />
+    <state width="1237" height="228" key="GridCell.Tab.1.center" timestamp="1640923263349">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="228" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1640923263349" />
+    <state width="1237" height="228" key="GridCell.Tab.1.left" timestamp="1640923263349">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="228" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1640923263349" />
+    <state width="1237" height="228" key="GridCell.Tab.1.right" timestamp="1640923263349">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="228" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1640923263349" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1640858935296">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1640858935296" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1640858037288">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1640858037288" />
   </component>
 </project>
