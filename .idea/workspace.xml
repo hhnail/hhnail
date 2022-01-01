@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/bean/HTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/vo/resp/AntdTreeDataVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/test/java/com/hhnail/web/test/TestInstanceOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/hhnail-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/LinkedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/util/HTreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/util/HTreeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/bean/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/bean/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/controller/TreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/controller/TreeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/service/TreeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/service/TreeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/algorithm/leetcode/plan01/Dichotomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/Dichotomy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/algorithm/leetcode/plan01/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/FirstBadVersion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/service/impl/TreeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/service/impl/TreeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +84,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hhnail-ui/src" />
@@ -93,26 +99,42 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hhnail.util" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hhnail" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hhnail.web.bean" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hhnail.web.bean" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestInstanceOf.test01">
-    <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode.plan01.FirstBadVersion" />
-      <module name="mptest" />
+  <component name="RunManager" selected="Application.Dichotomy">
+    <configuration name="Dichotomy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.Dichotomy" />
+      <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode.plan01.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.plan01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.FirstBadVersion" />
+      <module name="hhnail-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhnail.leetcode.plan01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,7 +144,7 @@
     </configuration>
     <configuration name="TestInstanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhnail.web.test.TestInstanceOf" />
-      <module name="mptest" />
+      <module name="hhnail-restful" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hhnail.web.test.*" />
@@ -134,7 +156,7 @@
       </method>
     </configuration>
     <configuration name="TestInstanceOf.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mptest" />
+      <module name="hhnail-restful" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hhnail.web.test.*" />
@@ -150,20 +172,22 @@
       </method>
     </configuration>
     <configuration name="MptestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mptest" />
+      <module name="hhnail-restful" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhnail.web.MptestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.MptestApplication" />
       <item itemvalue="Application.FirstBadVersion" />
       <item itemvalue="Application.TestInstanceOf" />
       <item itemvalue="JUnit.TestInstanceOf.test01" />
+      <item itemvalue="Spring Boot.MptestApplication" />
+      <item itemvalue="Application.Dichotomy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dichotomy" />
         <item itemvalue="JUnit.TestInstanceOf.test01" />
         <item itemvalue="Application.TestInstanceOf" />
         <item itemvalue="Application.FirstBadVersion" />
@@ -181,7 +205,8 @@
       <option name="presentableId" value="Default" />
       <updated>1640857025149</updated>
       <workItem from="1640857026453" duration="1761000" />
-      <workItem from="1640858950994" duration="18751000" />
+      <workItem from="1640858950994" duration="19108000" />
+      <workItem from="1641040432758" duration="1729000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -197,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640953641074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[新增]为antd tree data构建数据结构（未完成）">
+      <created>1640957315328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640957315328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +257,8 @@
     </ignored-roots>
     <MESSAGE value="【算法】二分查找；首次错误版本【前端】构建基本路由" />
     <MESSAGE value="[新增]引入树形控件和表格；配置前端代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="[新增]引入树形控件和表格；配置前端代理" />
+    <MESSAGE value="[新增]为antd tree data构建数据结构（未完成）" />
+    <option name="LAST_COMMIT_MESSAGE" value="[新增]为antd tree data构建数据结构（未完成）" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Notifications" timestamp="1640943457919">
@@ -236,14 +269,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1640920531748" />
+    <state x="386" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640957507790">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="386" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1640957507790" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1640954293871">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1640954293871" />
-    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1640858068570">
+    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1641043171317">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1640858068570" />
+    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1641043171317" />
     <state x="425" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1640858071049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -252,54 +289,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1640941491757" />
-    <state x="212" y="0" key="CommitChangelistDialog2" timestamp="1640953639724">
+    <state x="123" y="0" key="CommitChangelistDialog2" timestamp="1641043599939">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="212" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1640953639724" />
+    <state x="123" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1641043599939" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="469" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1640870710588" />
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1640957184846">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1641043359883">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640957184846" />
-    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1640957184846">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641043359883" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1641043359882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1640957184846" />
-    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1640957184846">
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1641043359882" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1641043359881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1640957184846" />
-    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1640957184846">
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1641043359881" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1641043359882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1640957184846" />
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1640955220293">
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1641043359882" />
+    <state width="1237" height="228" key="GridCell.Tab.1.bottom" timestamp="1641014124438">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640955220293" />
-    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1640955220293">
+    <state width="1237" height="228" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641014124438" />
+    <state width="1237" height="228" key="GridCell.Tab.1.center" timestamp="1641014124438">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1640955220293" />
-    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1640955220293">
+    <state width="1237" height="228" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1641014124438" />
+    <state width="1237" height="228" key="GridCell.Tab.1.left" timestamp="1641014124438">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1640955220293" />
-    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1640955220293">
+    <state width="1237" height="228" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1641014124438" />
+    <state width="1237" height="228" key="GridCell.Tab.1.right" timestamp="1641014124438">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1640955220293" />
+    <state width="1237" height="228" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1641014124438" />
     <state x="221" y="84" key="IDE.errors.dialog" timestamp="1640951630915">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1640951630915" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1640858935296">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1641043083382">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1640858935296" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1641043083382" />
+    <state x="49" y="35" key="new project wizard" timestamp="1641043078549">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="49" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1641043078549" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1640858037288">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
