@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day01/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day01/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day02/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day02/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day01/SearchInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day02/Rotate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day02/SortedSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day03/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day03/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day04/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day04/ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/random/RelativeSortArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/tooffer/CQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-ui/image/smile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/AddApi.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/hhnail-practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/Dichotomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day01/Dichotomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day01/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/Dichotomy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/FirstBadVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/VersionControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/util/HTreeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/util/HTreeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/service/impl/TreeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/service/impl/TreeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/AddApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/AddApi.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +213,7 @@
       <workItem from="1640857026453" duration="1761000" />
       <workItem from="1640858950994" duration="19108000" />
       <workItem from="1641040432758" duration="31453000" />
-      <workItem from="1641431512108" duration="9724000" />
+      <workItem from="1641431512108" duration="12623000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -272,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641043608516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[新增]算法小结。leetcode数据结构day02；算法入门day04；">
+      <created>1641467132961</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641467132961</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +280,8 @@
     <MESSAGE value="[新增]引入树形控件和表格；配置前端代理" />
     <MESSAGE value="[新增]为antd tree data构建数据结构（未完成）" />
     <MESSAGE value="[重构]分离web项目和算法练习；统一npm包位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="[重构]分离web项目和算法练习；统一npm包位置" />
+    <MESSAGE value="[新增]算法小结。leetcode数据结构day02；算法入门day04；" />
+    <option name="LAST_COMMIT_MESSAGE" value="[新增]算法小结。leetcode数据结构day02；算法入门day04；" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Notifications" timestamp="1640943457919">
@@ -349,10 +328,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="123" y="0" key="CommitChangelistDialog2" timestamp="1641043599939">
+    <state x="19" y="0" key="CommitChangelistDialog2" timestamp="1641467128396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="123" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1641043599939" />
+    <state x="19" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1641467128396" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

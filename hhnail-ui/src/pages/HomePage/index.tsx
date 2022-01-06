@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {useHistory, Route, Switch} from 'react-router-dom'
 import {Layout, Menu} from 'antd';
-import {
+import Icon, {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
   UploadOutlined,
@@ -36,10 +36,19 @@ export default function HomePage() {
     }}>
       {/*============================ 侧边栏 ============================*/}
       <Sider trigger={null} collapsible collapsed={collapsed} style={{}}>
-        <div style={{
-          width:200,
-          height:100,
-        }}/>
+        <div>
+          <span
+            style={{
+              color: 'white',
+              fontSize: 20,
+              fontWeight:2000,
+            }}>hv-data</span>
+          <Icon style={{
+            fontSize: 60,
+            width: 120,
+            height: 90,
+          }} component={SmileIcon}/>
+        </div>
         <Menu theme="dark" mode="inline" defaultSelectedKeys={['ApiList']}>
           <Menu.Item key="ApiList" icon={<UserOutlined/>}
                      onClick={() => {
