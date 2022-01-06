@@ -9,7 +9,11 @@ import {
   VideoCameraOutlined,
 } from '@ant-design/icons';
 import styles from './index.less'
+// 自定义组件
 import {ApiList} from "@/pages/HomePage/ApiList";
+import AddApi from "@/pages/HomePage/ApiList/AddApi";
+// 静态资源
+import {ReactComponent as SmileIcon} from "../../../image/smile.svg";
 
 
 const {Header, Sider, Content} = Layout;
@@ -32,18 +36,26 @@ export default function HomePage() {
     }}>
       {/*============================ 侧边栏 ============================*/}
       <Sider trigger={null} collapsible collapsed={collapsed} style={{}}>
-        <div className="logo"/>
-        <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
+        <div style={{
+          width:200,
+          height:100,
+        }}/>
+        <Menu theme="dark" mode="inline" defaultSelectedKeys={['ApiList']}>
           <Menu.Item key="ApiList" icon={<UserOutlined/>}
                      onClick={() => {
                        history.push("ApiList")
                      }}>
             API列表
           </Menu.Item>
-          <Menu.Item key="2" icon={<VideoCameraOutlined/>}>
-            导航2
+          <Menu.Item key="2" icon={<VideoCameraOutlined/>}
+                     onClick={() => {
+                       history.push("AddApi")
+                     }}>
+            新建API
           </Menu.Item>
-          <Menu.Item key="3" icon={<UploadOutlined/>}>
+          <Menu.Item key="3" icon={<UploadOutlined/>} onClick={() => {
+            history.push("ApiList")
+          }}>
             导航3
           </Menu.Item>
         </Menu>
@@ -56,19 +68,20 @@ export default function HomePage() {
         <Header style={{padding: 0}}>
           {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
             className: 'trigger',
-            style:{color:'white'},
+            style: {color: 'white'},
             onClick: toggle,
           })}
         </Header>
 
         <Content style={{
           padding: 24,
-          height: 495,
-          width:998,
+          height: 540,
+          width: 998,
           overflowY: "auto",
         }}>
           <Switch>
             <Route path="/ApiList" component={ApiList}/>
+            <Route path="/AddApi" component={AddApi}/>
           </Switch>
         </Content>
       </Layout>

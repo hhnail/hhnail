@@ -1,4 +1,4 @@
-package com.hhnail.leetcode.plan01;
+package com.hhnail.leetcode.plan01.day01;
 
 
 class VersionControl {

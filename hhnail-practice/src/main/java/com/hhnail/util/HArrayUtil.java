@@ -12,14 +12,18 @@ public class HArrayUtil {
 	 * 获取有序 int 数组
 	 */
 	public static int[] getOrderedIntArr() {
-		return getOrderedIntArr(10, false);
+		return getOrderedIntArr(10, false, false);
+	}
+
+	public static int[] getOrderedIntArr(boolean needPrint) {
+		return getOrderedIntArr(10, false, needPrint);
 	}
 
 	public static int[] getOrderedIntArr(int length) {
-		return getOrderedIntArr(length, false);
+		return getOrderedIntArr(length, false, false);
 	}
 
-	public static int[] getOrderedIntArr(int length, boolean lower) {
+	public static int[] getOrderedIntArr(int length, boolean lower, boolean needPrint) {
 		int[] orderedArr = new int[length];
 		for (int i = 0; i < length; i++) {
 			int maxGap = 1000;
@@ -30,12 +34,23 @@ public class HArrayUtil {
 				orderedArr[i] = randomInt;
 			}
 		}
+		if (needPrint) {
+			printIntArr(orderedArr);
+		}
 		return orderedArr;
 	}
 
 
 	public static void printIntArr(int[] arr) {
 		System.out.println(Arrays.toString(arr));
+	}
+
+	public static void printCharArr(char[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
+
+	public static String printIntArr(int[] arr, boolean needString) {
+		return Arrays.toString(arr);
 	}
 
 	public static void printIntArr(double[] arr) {

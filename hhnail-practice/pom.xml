@@ -10,6 +10,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>hhnail-practice</artifactId>
-
-
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+	</dependencies>
 </project>
