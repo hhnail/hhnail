@@ -1,6 +1,8 @@
 package com.hhnail.web.service.impl;
 
 import com.hhnail.util.HTreeUtil;
+import com.hhnail.web.bean.HColumn;
+import com.hhnail.web.bean.HTable;
 import com.hhnail.web.bean.TreeNode;
 import com.hhnail.web.mapper.TreeMapper;
 import com.hhnail.web.service.TreeService;
@@ -43,5 +45,17 @@ public class TreeServiceImpl implements TreeService {
 		// 构建树结构
 		List<AntdTreeDataVO> treeData = HTreeUtil.createTree(voList);
 		return treeData;
+	}
+
+	@Override
+	public List<HTable> queryTable() {
+		List<HTable> tables= treeMapper.queryTable();
+		return tables;
+	}
+
+	@Override
+	public List<HColumn> queryColumn(String tableName) {
+		List<HColumn> columns = treeMapper.queryColumn(tableName);
+		return columns;
 	}
 }

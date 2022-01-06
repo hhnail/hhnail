@@ -23,5 +23,8 @@ server:
 #  config: logback.xml
 #  level:
 #    com.itcodai.course03.dao: trace
-mybatis:
-  mapper-locations: classpath*:mapper/*Mapper.xml
+#mybatis:
+#  mapper-locations: classpath*:mapper/*Mapper.xml
+mybatis-plus:
+    # 自定义xml文件路径
+    mapper-locations: classpath:/mapper/*Mapper.xml

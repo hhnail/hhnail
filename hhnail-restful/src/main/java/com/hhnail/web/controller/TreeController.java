@@ -1,5 +1,7 @@
 package com.hhnail.web.controller;
 
+import com.hhnail.web.bean.HColumn;
+import com.hhnail.web.bean.HTable;
 import com.hhnail.web.bean.TreeNode;
 import com.hhnail.web.service.TreeService;
 import com.hhnail.util.HTreeUtil;
@@ -7,10 +9,7 @@ import com.hhnail.web.vo.resp.AntdTreeDataVO;
 import com.hhnail.web.vo.resp.TreeNodeVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -44,8 +43,22 @@ public class TreeController {
 	@GetMapping("queryApiGroupTree")
 	public List<AntdTreeDataVO> queryApiGroupTree() {
 		List<AntdTreeDataVO> apiGroup = treeService.queryApiGroupTree();
-		log.debug("tree data = {}", apiGroup);
+		log.debug("==2 tree data = {}", apiGroup);
 		return apiGroup;
+	}
+
+	@PostMapping("queryTable")
+	public List<HTable> queryTable() {
+		List<HTable> tables = treeService.queryTable();
+		log.debug("==3 tables = {}", tables);
+		return tables;
+	}
+
+	@PostMapping("queryColumn")
+	public List<HColumn> queryColumn(@RequestParam(value = "tableName") String tableName) {
+		List<HColumn> columns = treeService.queryColumn(tableName);
+		log.debug("==3 columns = {}", columns);
+		return columns;
 	}
 
 }
