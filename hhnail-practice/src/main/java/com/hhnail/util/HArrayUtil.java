@@ -45,6 +45,12 @@ public class HArrayUtil {
 		System.out.println(Arrays.toString(arr));
 	}
 
+	public static void printIntArr(int[][] arr) {
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(Arrays.toString(arr[i]));
+		}
+	}
+
 	public static void printCharArr(char[] arr) {
 		System.out.println(Arrays.toString(arr));
 	}

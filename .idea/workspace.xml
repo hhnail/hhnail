@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/Intersect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day04/Generate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day04/MatrixReshape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +112,39 @@
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Intersect">
+  <component name="RunManager" selected="Application.Generate">
+    <configuration name="Generate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day04.Generate" />
+      <module name="hhnail-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Intersect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day03.Intersect" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixReshape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day04.MatrixReshape" />
+      <module name="hhnail-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,32 +178,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day04.ReverseString" />
-      <module name="hhnail-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day04.ReverseWords" />
-      <module name="hhnail-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MptestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hhnail-restful" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhnail.web.MptestApplication" />
@@ -185,19 +187,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MptestApplication" />
-      <item itemvalue="Application.ReverseString" />
-      <item itemvalue="Application.ReverseWords" />
       <item itemvalue="Application.Merge" />
       <item itemvalue="Application.MaxProfit" />
       <item itemvalue="Application.Intersect" />
+      <item itemvalue="Application.MatrixReshape" />
+      <item itemvalue="Application.Generate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generate" />
+        <item itemvalue="Application.MatrixReshape" />
         <item itemvalue="Application.Intersect" />
         <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,7 @@
       <workItem from="1640857026453" duration="1761000" />
       <workItem from="1640858950994" duration="19108000" />
       <workItem from="1641040432758" duration="31453000" />
-      <workItem from="1641431512108" duration="24777000" />
+      <workItem from="1641431512108" duration="32868000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -265,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641477412617</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[算法]leetcode算法题-数据结构-day03">
+      <created>1641527539412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641527539412</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +307,8 @@
     <MESSAGE value="[新增]算法小结。leetcode数据结构day02；算法入门day04；" />
     <MESSAGE value="[新增]新建API中Step1，引入步骤条及表单" />
     <MESSAGE value="[新增]新建API查询可选表及其字段联动展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="[新增]新建API查询可选表及其字段联动展示" />
+    <MESSAGE value="[算法]leetcode算法题-数据结构-day03" />
+    <option name="LAST_COMMIT_MESSAGE" value="[算法]leetcode算法题-数据结构-day03" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Notifications" timestamp="1640943457919">
@@ -337,58 +347,62 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1640941491757" />
-    <state x="396" y="43" key="#xdebugger.evaluate" timestamp="1641434251014">
+    <state x="396" y="43" key="#xdebugger.evaluate" timestamp="1641546378720">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="396" y="43" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1641434251014" />
+    <state x="396" y="43" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1641546378720" />
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1641284612662">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="19" y="0" key="CommitChangelistDialog2" timestamp="1641477409702">
+    <state x="19" y="0" key="CommitChangelistDialog2" timestamp="1641527538030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="19" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1641477409702" />
+    <state x="19" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1641527538030" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="469" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1640870710588" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1641529358489">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1641529358489" />
     <state x="345" y="81" key="FileChooserDialogImpl" timestamp="1641267973348">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="345" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1641267973348" />
-    <state width="1237" height="126" key="GridCell.Tab.0.bottom" timestamp="1641527490421">
+    <state width="1237" height="229" key="GridCell.Tab.0.bottom" timestamp="1641546423398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="126" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641527490421" />
-    <state width="1237" height="126" key="GridCell.Tab.0.center" timestamp="1641527490421">
+    <state width="1237" height="229" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641546423398" />
+    <state width="1237" height="229" key="GridCell.Tab.0.center" timestamp="1641546423398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="126" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1641527490421" />
-    <state width="1237" height="126" key="GridCell.Tab.0.left" timestamp="1641527490421">
+    <state width="1237" height="229" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1641546423398" />
+    <state width="1237" height="229" key="GridCell.Tab.0.left" timestamp="1641546423398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="126" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1641527490421" />
-    <state width="1237" height="126" key="GridCell.Tab.0.right" timestamp="1641527490421">
+    <state width="1237" height="229" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1641546423398" />
+    <state width="1237" height="229" key="GridCell.Tab.0.right" timestamp="1641546423398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="126" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1641527490421" />
-    <state width="1237" height="257" key="GridCell.Tab.1.bottom" timestamp="1641527450487">
+    <state width="1237" height="229" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1641546423398" />
+    <state width="1237" height="229" key="GridCell.Tab.1.bottom" timestamp="1641546423474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="257" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641527450487" />
-    <state width="1237" height="257" key="GridCell.Tab.1.center" timestamp="1641527450487">
+    <state width="1237" height="229" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641546423474" />
+    <state width="1237" height="229" key="GridCell.Tab.1.center" timestamp="1641546423474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="257" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1641527450487" />
-    <state width="1237" height="257" key="GridCell.Tab.1.left" timestamp="1641527450487">
+    <state width="1237" height="229" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1641546423474" />
+    <state width="1237" height="229" key="GridCell.Tab.1.left" timestamp="1641546423474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="257" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1641527450487" />
-    <state width="1237" height="257" key="GridCell.Tab.1.right" timestamp="1641527450487">
+    <state width="1237" height="229" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1641546423474" />
+    <state width="1237" height="229" key="GridCell.Tab.1.right" timestamp="1641546423474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="257" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1641527450487" />
+    <state width="1237" height="229" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1641546423474" />
     <state width="1237" height="257" key="GridCell.Tab.2.bottom" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -429,10 +443,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1641474808122" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1641465854834">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1641544125225">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1641465854834" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1641544125225" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,6 +460,16 @@
           <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/Intersect.java</url>
           <line>26</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day04/Generate.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day04/Generate.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
