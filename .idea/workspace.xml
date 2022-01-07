@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/bean/HColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/bean/HTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-ui/src/service/treeService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/Intersect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/MaxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/controller/TreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/controller/TreeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/mapper/TreeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/mapper/TreeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/service/TreeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/service/TreeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/service/impl/TreeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/java/com/hhnail/web/service/impl/TreeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/src/main/resources/mapper/AssociationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/src/main/resources/mapper/TreeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/controller/TreeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/controller/TreeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/mapper/TreeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/mapper/TreeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/service/TreeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/service/TreeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/service/impl/TreeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/target/classes/com/hhnail/web/service/impl/TreeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/AddApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/src/pages/HomePage/ApiList/AddApi.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,13 +110,26 @@
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MptestApplication">
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day01.MaxSubArray" />
+  <component name="RunManager" selected="Application.Intersect">
+    <configuration name="Intersect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day03.Intersect" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day01.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day03.MaxProfit" />
+      <module name="hhnail-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,19 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day02.TwoSum" />
-      <module name="hhnail-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MptestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hhnail-restful" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhnail.web.MptestApplication" />
@@ -197,20 +184,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxSubArray" />
-      <item itemvalue="Application.TwoSum (1)" />
       <item itemvalue="Spring Boot.MptestApplication" />
       <item itemvalue="Application.ReverseString" />
       <item itemvalue="Application.ReverseWords" />
       <item itemvalue="Application.Merge" />
+      <item itemvalue="Application.MaxProfit" />
+      <item itemvalue="Application.Intersect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Intersect" />
+        <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.Merge" />
         <item itemvalue="Application.ReverseWords" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.TwoSum (1)" />
-        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +214,7 @@
       <workItem from="1640857026453" duration="1761000" />
       <workItem from="1640858950994" duration="19108000" />
       <workItem from="1641040432758" duration="31453000" />
-      <workItem from="1641431512108" duration="19821000" />
+      <workItem from="1641431512108" duration="24777000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -271,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641470194734</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[新增]新建API查询可选表及其字段联动展示">
+      <created>1641477412617</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641477412617</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +297,8 @@
     <MESSAGE value="[重构]分离web项目和算法练习；统一npm包位置" />
     <MESSAGE value="[新增]算法小结。leetcode数据结构day02；算法入门day04；" />
     <MESSAGE value="[新增]新建API中Step1，引入步骤条及表单" />
-    <option name="LAST_COMMIT_MESSAGE" value="[新增]新建API中Step1，引入步骤条及表单" />
+    <MESSAGE value="[新增]新建API查询可选表及其字段联动展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="[新增]新建API查询可选表及其字段联动展示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Notifications" timestamp="1640943457919">
@@ -350,10 +345,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="19" y="0" key="CommitChangelistDialog2" timestamp="1641470193573">
+    <state x="19" y="0" key="CommitChangelistDialog2" timestamp="1641477409702">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="19" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1641470193573" />
+    <state x="19" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1641477409702" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -362,58 +357,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="345" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1641267973348" />
-    <state width="1237" height="207" key="GridCell.Tab.0.bottom" timestamp="1641477370505">
+    <state width="1237" height="126" key="GridCell.Tab.0.bottom" timestamp="1641527490421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641477370505" />
-    <state width="1237" height="207" key="GridCell.Tab.0.center" timestamp="1641477370505">
+    <state width="1237" height="126" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641527490421" />
+    <state width="1237" height="126" key="GridCell.Tab.0.center" timestamp="1641527490421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1641477370505" />
-    <state width="1237" height="207" key="GridCell.Tab.0.left" timestamp="1641477370505">
+    <state width="1237" height="126" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1641527490421" />
+    <state width="1237" height="126" key="GridCell.Tab.0.left" timestamp="1641527490421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1641477370505" />
-    <state width="1237" height="207" key="GridCell.Tab.0.right" timestamp="1641477370505">
+    <state width="1237" height="126" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1641527490421" />
+    <state width="1237" height="126" key="GridCell.Tab.0.right" timestamp="1641527490421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1641477370505" />
-    <state width="1237" height="207" key="GridCell.Tab.1.bottom" timestamp="1641477370506">
+    <state width="1237" height="126" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1641527490421" />
+    <state width="1237" height="257" key="GridCell.Tab.1.bottom" timestamp="1641527450487">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641477370506" />
-    <state width="1237" height="207" key="GridCell.Tab.1.center" timestamp="1641477370505">
+    <state width="1237" height="257" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641527450487" />
+    <state width="1237" height="257" key="GridCell.Tab.1.center" timestamp="1641527450487">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1641477370505" />
-    <state width="1237" height="207" key="GridCell.Tab.1.left" timestamp="1641477370505">
+    <state width="1237" height="257" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1641527450487" />
+    <state width="1237" height="257" key="GridCell.Tab.1.left" timestamp="1641527450487">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1641477370505" />
-    <state width="1237" height="207" key="GridCell.Tab.1.right" timestamp="1641477370506">
+    <state width="1237" height="257" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1641527450487" />
+    <state width="1237" height="257" key="GridCell.Tab.1.right" timestamp="1641527450487">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="207" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1641477370506" />
-    <state width="1237" height="257" key="GridCell.Tab.2.bottom" timestamp="1641477369267">
+    <state width="1237" height="257" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1641527450487" />
+    <state width="1237" height="257" key="GridCell.Tab.2.bottom" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="257" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641477369267" />
-    <state width="1237" height="257" key="GridCell.Tab.2.center" timestamp="1641477369267">
+    <state width="1237" height="257" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641527404404" />
+    <state width="1237" height="257" key="GridCell.Tab.2.center" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="257" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1641477369267" />
-    <state width="1237" height="257" key="GridCell.Tab.2.left" timestamp="1641477369266">
+    <state width="1237" height="257" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1641527404404" />
+    <state width="1237" height="257" key="GridCell.Tab.2.left" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="257" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1641477369266" />
-    <state width="1237" height="257" key="GridCell.Tab.2.right" timestamp="1641477369267">
+    <state width="1237" height="257" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1641527404404" />
+    <state width="1237" height="257" key="GridCell.Tab.2.right" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="257" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1641477369267" />
-    <state x="221" y="84" key="IDE.errors.dialog" timestamp="1640951630915">
+    <state width="1237" height="257" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1641527404404" />
+    <state x="221" y="84" key="IDE.errors.dialog" timestamp="1641524110500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1640951630915" />
+    <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1641524110500" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1641267976370">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -446,6 +441,11 @@
           <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day02/SortedSquares.java</url>
           <line>37</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/Intersect.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
