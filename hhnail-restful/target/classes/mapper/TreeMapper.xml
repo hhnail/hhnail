@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hhnail.web.mapper.TreeMapper">
+	<resultMap id="BaseResultMap" type="com.hhnail.web.bean.TreeNode">
+		<id column="tree_id" jdbcType="INTEGER" property="treeId"/>
+		<result column="name" jdbcType="VARCHAR" property="name"/>
+		<result column="p_id" jdbcType="INTEGER" property="pId"/>
+	</resultMap>
+
+	<!-- List<HTable> queryTable(); -->
+	<select id="queryTable" resultType="com.hhnail.web.bean.HTable">
+        select * from information_schema.tables where table_schema='hhnail' order by TABLE_NAME
+    </select>
+
+	<!-- List<HColumn> queryColumn(String tableName); -->
+	<select id="queryColumn" resultType="com.hhnail.web.bean.HColumn" parameterType="java.lang.String">
+        SELECT
+            *
+        FROM
+            information_schema.COLUMNS
+        WHERE 1=1
+            AND TABLE_SCHEMA = 'hhnail'
+            AND TABLE_NAME = #{tableName}
+        ORDER BY COLUMN_NAME
+    </select>
+
+
+</mapper>
