@@ -1,13 +1,8 @@
 package com.hhnail.datastructure.atguigu.tree;
 
-import lombok.Data;
-
-import java.net.HttpCookie;
-
-@Data
 public class HTreeNode {
 
-	public Integer nodeId;
+	public Integer id;
 
 	public String name;
 

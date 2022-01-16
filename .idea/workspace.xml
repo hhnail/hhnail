@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/datastructure/HIntLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/datastructure/HIntLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,12 +187,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.MptestApplication" />
       <item itemvalue="Application.CanConstruct" />
       <item itemvalue="Application.IsAnagram" />
       <item itemvalue="Application.HasCycle" />
       <item itemvalue="Application.MergeTwoLists" />
       <item itemvalue="Application.HIntLinkedList" />
+      <item itemvalue="Spring Boot.MptestApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -217,7 +218,8 @@
       <workItem from="1640858950994" duration="19108000" />
       <workItem from="1641040432758" duration="31453000" />
       <workItem from="1641431512108" duration="57945000" />
-      <workItem from="1642043217159" duration="27603000" />
+      <workItem from="1642043217159" duration="28506000" />
+      <workItem from="1642299653782" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -310,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642298276875</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=".gitignore">
+      <created>1642298698647</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642298698647</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +358,8 @@
     <MESSAGE value="[算法]leetcode——数据结构day05 over;考完科三，重新开冲！" />
     <MESSAGE value="[算法]leetcode——数据结构day06、07；算法入门day05；尚硅谷数据结构手写单链表的遍历和add" />
     <MESSAGE value="[算法]Java实现单链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="[算法]Java实现单链表" />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Editor_|_Color_Scheme_|_General" timestamp="1641821473431">
@@ -376,6 +386,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1642213811191" />
+    <state x="382" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1642299743463">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="382" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1642299743463" />
     <state x="492" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1641267974941">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -400,10 +414,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1642298275345">
+    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1642298697407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1642298275345" />
+    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1642298697407" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -468,10 +482,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1641524110500" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1641267976370">
+    <state x="461" y="51" key="RollbackChangesDialog" timestamp="1642300076989">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1641267976370" />
+    <state x="461" y="51" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1642300076989" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1642299838056">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1642299838056" />
+    <state x="642" y="256" key="VCS.EditChangelistDialog" timestamp="1642298841953">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="642" y="256" key="VCS.EditChangelistDialog/0.0.1280.680@0.0.1280.680" timestamp="1642298841953" />
     <state width="528" height="340" key="XDebugger.FullValuePopup" timestamp="1642214149148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
