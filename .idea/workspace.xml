@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/HIntLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/HSingleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day06/CanConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day06/FirstUniqChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day06/IsAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day07/HasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day05/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day05/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/datastructure/HIntLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/datastructure/HIntLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="79" />
+    <option name="myElementSize" value="71" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -222,7 +217,7 @@
       <workItem from="1640858950994" duration="19108000" />
       <workItem from="1641040432758" duration="31453000" />
       <workItem from="1641431512108" duration="57945000" />
-      <workItem from="1642043217159" duration="22786000" />
+      <workItem from="1642043217159" duration="27603000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -301,7 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642124817056</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[算法]leetcode——数据结构day06、07；算法入门day05；尚硅谷数据结构手写单链表的遍历和add">
+      <created>1642215458828</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642215458828</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[算法]Java实现单链表">
+      <created>1642298276875</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642298276875</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +347,9 @@
     <MESSAGE value="[算法]leetcode算法题-数据结构-day04" />
     <MESSAGE value="[算法]leetcode——算法入门day05" />
     <MESSAGE value="[算法]leetcode——数据结构day05 over;考完科三，重新开冲！" />
-    <option name="LAST_COMMIT_MESSAGE" value="[算法]leetcode——数据结构day05 over;考完科三，重新开冲！" />
+    <MESSAGE value="[算法]leetcode——数据结构day06、07；算法入门day05；尚硅谷数据结构手写单链表的遍历和add" />
+    <MESSAGE value="[算法]Java实现单链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="[算法]Java实现单链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Editor_|_Color_Scheme_|_General" timestamp="1641821473431">
@@ -389,10 +400,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1642215398226">
+    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1642298275345">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1642215398226" />
+    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1642298275345" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -405,38 +416,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="345" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1641267973348" />
-    <state width="998" height="130" key="GridCell.Tab.0.bottom" timestamp="1642215255568">
+    <state width="998" height="246" key="GridCell.Tab.0.bottom" timestamp="1642298210661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642215255568" />
-    <state width="998" height="130" key="GridCell.Tab.0.center" timestamp="1642215255568">
+    <state width="998" height="246" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
+    <state width="998" height="246" key="GridCell.Tab.0.center" timestamp="1642298210661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1642215255568" />
-    <state width="998" height="130" key="GridCell.Tab.0.left" timestamp="1642215255568">
+    <state width="998" height="246" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
+    <state width="998" height="246" key="GridCell.Tab.0.left" timestamp="1642298210661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1642215255568" />
-    <state width="998" height="130" key="GridCell.Tab.0.right" timestamp="1642215255568">
+    <state width="998" height="246" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
+    <state width="998" height="246" key="GridCell.Tab.0.right" timestamp="1642298210661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1642215255568" />
-    <state width="998" height="154" key="GridCell.Tab.1.bottom" timestamp="1642215163501">
+    <state width="998" height="246" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
+    <state width="998" height="246" key="GridCell.Tab.1.bottom" timestamp="1642298210661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="154" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642215163501" />
-    <state width="998" height="154" key="GridCell.Tab.1.center" timestamp="1642215163501">
+    <state width="998" height="246" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
+    <state width="998" height="246" key="GridCell.Tab.1.center" timestamp="1642298210661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="154" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1642215163501" />
-    <state width="998" height="154" key="GridCell.Tab.1.left" timestamp="1642215163501">
+    <state width="998" height="246" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
+    <state width="998" height="246" key="GridCell.Tab.1.left" timestamp="1642298210661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="154" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1642215163501" />
-    <state width="998" height="154" key="GridCell.Tab.1.right" timestamp="1642215163501">
+    <state width="998" height="246" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
+    <state width="998" height="246" key="GridCell.Tab.1.right" timestamp="1642298210661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="154" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1642215163501" />
+    <state width="998" height="246" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
     <state width="1237" height="257" key="GridCell.Tab.2.bottom" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

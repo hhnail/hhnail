@@ -1,0 +1,5 @@
+# 忽略所有java编译生成的class文件
+*.class
+
+#忽略特定文件
+/.idea/workspace.xml
