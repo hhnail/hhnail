@@ -1,9 +1,15 @@
 package com.hhnail.datastructure;
 
+/**
+ * @author Hhnail
+ * 实现单链表
+ */
 public class HIntLinkedList {
 
 	public static void main(String[] args) {
 		HIntLinkedList list = new HIntLinkedList(1);
+		list.add(3);
+		list.add(4);
 		System.out.println(list);
 	}
 
@@ -19,8 +25,10 @@ public class HIntLinkedList {
 	public HIntLinkedList(Integer value) {
 		this.value = value;
 		this.next = null;
-		// !!! key line !!!
-		this.head = this;
+		// key line !!!
+		if (this.head == null) {
+			head = this;
+		}
 	}
 
 	public void add(Integer value) {
@@ -38,9 +46,11 @@ public class HIntLinkedList {
 
 	@Override
 	public String toString() {
+
 		if (this.head == null) {
 			return null;
 		}
+
 		HIntLinkedList current = this.head.next;
 		StringBuffer sb = new StringBuffer();
 		sb.append("[");
