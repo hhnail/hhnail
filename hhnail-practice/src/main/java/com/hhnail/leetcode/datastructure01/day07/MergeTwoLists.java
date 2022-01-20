@@ -1,14 +1,24 @@
 package com.hhnail.leetcode.datastructure01.day07;
 
-import com.hhnail.datastructure.HSingleList;
 import com.hhnail.leetcode.plan01.day05.ListNode;
 
 import java.util.List;
 
+
+// TODO
 public class MergeTwoLists {
 
 	public static void main(String[] args) {
+		ListNode node4 = new ListNode(4);
+		ListNode node3 = new ListNode(3, node4);
+		ListNode node1 = new ListNode(1, node3);
 
+		ListNode listNode4 = new ListNode(4);
+		ListNode listNode2 = new ListNode(2, listNode4);
+		ListNode listNode1 = new ListNode(1, listNode2);
+
+		ListNode listNode = mergeTwoLists(node1, listNode1);
+		System.out.println(listNode);
 	}
 
 	public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {

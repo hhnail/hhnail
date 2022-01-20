@@ -3,7 +3,9 @@ package com.hhnail.leetcode.plan01.day05;
 import java.util.List;
 
 public class ListNode {
+
 	public int val;
+
 	public ListNode next;
 
 	public ListNode() {
@@ -16,5 +18,20 @@ public class ListNode {
 	public ListNode(int val, ListNode next) {
 		this.val = val;
 		this.next = next;
+	}
+
+	@Override
+	public String toString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("[");
+		ListNode cur = this;
+		while (cur != null) {
+			sb.append(cur.val);
+			if (cur.next != null) {
+				sb.append(", ");
+			}
+		}
+		sb.append("]");
+		return sb.toString();
 	}
 }

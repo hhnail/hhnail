@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[数据结构]二叉树、顺序二叉树">
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/OrderBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/HTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-ui/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day05/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day05/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day05/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day05/ListNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,13 +117,13 @@
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HIntLinkedList">
-    <configuration name="CanConstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day06.CanConstruct" />
+  <component name="RunManager" selected="Application.OrderBinaryTree">
+    <configuration name="HBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.datastructure.atguigu.tree.HBinaryTree" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day06.*" />
+          <option name="PATTERN" value="com.hhnail.datastructure.atguigu.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day06.IsAnagram" />
+    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day07.MergeTwoLists" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day06.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day07.MergeTwoLists" />
+    <configuration name="OrderBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.datastructure.atguigu.tree.OrderBinaryTree" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day07.*" />
+          <option name="PATTERN" value="com.hhnail.datastructure.atguigu.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,20 +191,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CanConstruct" />
-      <item itemvalue="Application.IsAnagram" />
       <item itemvalue="Application.HasCycle" />
       <item itemvalue="Application.MergeTwoLists" />
       <item itemvalue="Application.HIntLinkedList" />
+      <item itemvalue="Application.HBinaryTree" />
       <item itemvalue="Spring Boot.MptestApplication" />
+      <item itemvalue="Application.OrderBinaryTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HIntLinkedList" />
+        <item itemvalue="Application.OrderBinaryTree" />
+        <item itemvalue="Application.HBinaryTree" />
         <item itemvalue="Application.MergeTwoLists" />
+        <item itemvalue="Application.HIntLinkedList" />
         <item itemvalue="Application.HasCycle" />
-        <item itemvalue="Application.IsAnagram" />
-        <item itemvalue="Application.CanConstruct" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +223,8 @@
       <workItem from="1641040432758" duration="31453000" />
       <workItem from="1641431512108" duration="57945000" />
       <workItem from="1642043217159" duration="28506000" />
-      <workItem from="1642299653782" duration="677000" />
+      <workItem from="1642299653782" duration="7654000" />
+      <workItem from="1642646951940" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -319,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642298698647</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=".gitignore update">
+      <created>1642300357635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642300357635</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +371,8 @@
     <MESSAGE value="[算法]leetcode——数据结构day06、07；算法入门day05；尚硅谷数据结构手写单链表的遍历和add" />
     <MESSAGE value="[算法]Java实现单链表" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value=".gitignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Editor_|_Color_Scheme_|_General" timestamp="1641821473431">
@@ -382,10 +395,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="386" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1640957507790" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1642213811191">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1642647138295">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1642213811191" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1642647138295" />
     <state x="382" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1642299743463">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -414,10 +427,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1642298697407">
+    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1642648592708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1642298697407" />
+    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1642648592708" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -430,38 +443,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="345" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1641267973348" />
-    <state width="998" height="246" key="GridCell.Tab.0.bottom" timestamp="1642298210661">
+    <state width="1237" height="159" key="GridCell.Tab.0.bottom" timestamp="1642648478645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="246" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
-    <state width="998" height="246" key="GridCell.Tab.0.center" timestamp="1642298210661">
+    <state width="1237" height="159" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642648478645" />
+    <state width="1237" height="159" key="GridCell.Tab.0.center" timestamp="1642648478645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="246" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
-    <state width="998" height="246" key="GridCell.Tab.0.left" timestamp="1642298210661">
+    <state width="1237" height="159" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1642648478645" />
+    <state width="1237" height="159" key="GridCell.Tab.0.left" timestamp="1642648478645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="246" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
-    <state width="998" height="246" key="GridCell.Tab.0.right" timestamp="1642298210661">
+    <state width="1237" height="159" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1642648478645" />
+    <state width="1237" height="159" key="GridCell.Tab.0.right" timestamp="1642648478645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="246" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
-    <state width="998" height="246" key="GridCell.Tab.1.bottom" timestamp="1642298210661">
+    <state width="1237" height="159" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1642648478645" />
+    <state width="1237" height="131" key="GridCell.Tab.1.bottom" timestamp="1642646880248">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="246" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
-    <state width="998" height="246" key="GridCell.Tab.1.center" timestamp="1642298210661">
+    <state width="1237" height="131" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642646880248" />
+    <state width="1237" height="131" key="GridCell.Tab.1.center" timestamp="1642646880248">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="246" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
-    <state width="998" height="246" key="GridCell.Tab.1.left" timestamp="1642298210661">
+    <state width="1237" height="131" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1642646880248" />
+    <state width="1237" height="131" key="GridCell.Tab.1.left" timestamp="1642646880248">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="246" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
-    <state width="998" height="246" key="GridCell.Tab.1.right" timestamp="1642298210661">
+    <state width="1237" height="131" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1642646880248" />
+    <state width="1237" height="131" key="GridCell.Tab.1.right" timestamp="1642646880248">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="998" height="246" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1642298210661" />
+    <state width="1237" height="131" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1642646880248" />
     <state width="1237" height="257" key="GridCell.Tab.2.bottom" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -498,10 +511,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="528" height="340" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1642214149148" />
-    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642166162988">
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642647224555">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1642166162988" />
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1642647224555" />
     <state x="321" y="73" width="638" height="534" key="find.popup" timestamp="1641634653394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -510,10 +523,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="49" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1641043078549" />
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1642130736714">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1642388721814">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1642130736714" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1642388721814" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1642135725285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -546,6 +559,11 @@
           <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day05/IsValidSudoku.java</url>
           <line>95</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
