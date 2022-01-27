@@ -55,15 +55,11 @@ public class Dichotomy {
 		return -1;
 	}
 
-
-	// 作者：LeetCode-Solution
 	// 链接：https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-leetcode-solution-f0xw/
-	// 来源：力扣（LeetCode）
-	// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 	public int search2(int[] nums, int target) {
 		int low = 0, high = nums.length - 1;
 		while (low <= high) {
-			// TODO ???
+			// TODO 为什么
 			int mid = (high - low) / 2 + low;
 			int num = nums[mid];
 			if (num == target) {

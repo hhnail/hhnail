@@ -32,7 +32,7 @@ public class OrderBinaryTree {
 	 */
 	public void preOrder(int index) {
 		System.out.println(treeArray[index]);
-		// 当前节点的左节点index为 2n+1；右节点index为 2n+2
+		// 完全二叉树 当前节点的左节点index为 2n+1；右节点index为 2n+2
 		int lp = 2 * index + 1;
 		int rp = 2 * index + 2;
 		if (lp < this.length) {

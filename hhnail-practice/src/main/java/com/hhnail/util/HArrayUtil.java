@@ -5,6 +5,8 @@ import java.util.Random;
 
 public class HArrayUtil {
 
+	private static final int DEFAULT_LENGTH = 10;
+
 	private static final Random random = new Random();
 
 	/**
@@ -12,6 +14,7 @@ public class HArrayUtil {
 	 * 获取有序 int 数组
 	 */
 	public static int[] getOrderedIntArr() {
+		// 默认长度为10
 		return getOrderedIntArr(10, false, false);
 	}
 
@@ -40,6 +43,25 @@ public class HArrayUtil {
 		return orderedArr;
 	}
 
+	/**
+	 * 获取无序随机 int[]
+	 * @param bound 边界值，不包含边界自身  [0,bound)
+	 * @return
+	 */
+	public static int[] getRandomIntArr(int bound) {
+		int[] randomIntArr = new int[DEFAULT_LENGTH];
+		// 参数校验
+		if (bound <= 0) {
+			System.err.println("边界值必须为正数！");
+			return randomIntArr;
+		}
+
+		Random r = new Random();
+		for (int i = 0; i < randomIntArr.length; i++) {
+			randomIntArr[i] = r.nextInt(bound);
+		}
+		return randomIntArr;
+	}
 
 	public static void printIntArr(int[] arr) {
 		System.out.println(Arrays.toString(arr));
