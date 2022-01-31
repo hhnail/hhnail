@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/zuo20220123/p2/Solution01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/zuo20220123/p2/TestLinkedList01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day07/FloodFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day07/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day12/ClimbStairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/OrderBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/datastructure/atguigu/tree/OrderBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day01/Dichotomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day01/Dichotomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day01/Dichotomy.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day01/Dichotomy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/tooffer/CQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/tooffer/CQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,13 +113,13 @@
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution01">
-    <configuration name="HBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.datastructure.atguigu.tree.HBinaryTree" />
+  <component name="RunManager" selected="Application.CQueue">
+    <configuration name="CQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.tooffer.CQueue" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.datastructure.atguigu.tree.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.tooffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.datastructure01.day07.MergeTwoLists" />
+    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day12.ClimbStairs" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.datastructure01.day07.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.datastructure.atguigu.tree.OrderBinaryTree" />
+    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day07.FloodFill" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.datastructure.atguigu.tree.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.zuo20220123.p2.Solution01" />
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day06.LengthOfLongestSubstring" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.zuo20220123.p2.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLinkedList01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.zuo20220123.p2.TestLinkedList01" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day07.Recursion" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.zuo20220123.p2.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,20 +187,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeTwoLists" />
-      <item itemvalue="Application.HBinaryTree" />
-      <item itemvalue="Application.OrderBinaryTree" />
+      <item itemvalue="Application.LengthOfLongestSubstring" />
+      <item itemvalue="Application.FloodFill" />
+      <item itemvalue="Application.Recursion" />
       <item itemvalue="Spring Boot.MptestApplication" />
-      <item itemvalue="Application.Solution01" />
-      <item itemvalue="Application.TestLinkedList01" />
+      <item itemvalue="Application.ClimbStairs" />
+      <item itemvalue="Application.CQueue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution01" />
-        <item itemvalue="Application.TestLinkedList01" />
-        <item itemvalue="Application.OrderBinaryTree" />
-        <item itemvalue="Application.HBinaryTree" />
-        <item itemvalue="Application.MergeTwoLists" />
+        <item itemvalue="Application.CQueue" />
+        <item itemvalue="Application.ClimbStairs" />
+        <item itemvalue="Application.FloodFill" />
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="Application.LengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +221,8 @@
       <workItem from="1642043217159" duration="28506000" />
       <workItem from="1642299653782" duration="7654000" />
       <workItem from="1642646951940" duration="3052000" />
-      <workItem from="1643186074535" duration="8810000" />
+      <workItem from="1643186074535" duration="19620000" />
+      <workItem from="1643423778460" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -338,7 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642648648927</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[左程云]去哪儿网算法题;bilibili;20220123;">
+      <created>1643245453011</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643245453011</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[leetcode算法]算法计划day06《无重复字符的最长子串》">
+      <created>1643251196547</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1643251196547</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +392,9 @@
     <MESSAGE value=".gitignore" />
     <MESSAGE value=".gitignore update" />
     <MESSAGE value="[数据结构]二叉树、顺序二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="[数据结构]二叉树、顺序二叉树" />
+    <MESSAGE value="[左程云]去哪儿网算法题;bilibili;20220123;" />
+    <MESSAGE value="[leetcode算法]算法计划day06《无重复字符的最长子串》" />
+    <option name="LAST_COMMIT_MESSAGE" value="[leetcode算法]算法计划day06《无重复字符的最长子串》" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Editor_|_Color_Scheme_|_General" timestamp="1641821473431">
@@ -435,10 +449,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1642648645791">
+    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1643251195159">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1642648645791" />
+    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1643251195159" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -451,38 +465,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="345" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1641267973348" />
-    <state width="1237" height="135" key="GridCell.Tab.0.bottom" timestamp="1643245217169">
+    <state width="1237" height="153" key="GridCell.Tab.0.bottom" timestamp="1643598612301">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643245217169" />
-    <state width="1237" height="135" key="GridCell.Tab.0.center" timestamp="1643245217169">
+    <state width="1237" height="153" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643598612301" />
+    <state width="1237" height="153" key="GridCell.Tab.0.center" timestamp="1643598612301">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1643245217169" />
-    <state width="1237" height="135" key="GridCell.Tab.0.left" timestamp="1643245217169">
+    <state width="1237" height="153" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1643598612301" />
+    <state width="1237" height="153" key="GridCell.Tab.0.left" timestamp="1643598612301">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1643245217169" />
-    <state width="1237" height="135" key="GridCell.Tab.0.right" timestamp="1643245217169">
+    <state width="1237" height="153" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1643598612301" />
+    <state width="1237" height="153" key="GridCell.Tab.0.right" timestamp="1643598612301">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1643245217169" />
-    <state width="1237" height="131" key="GridCell.Tab.1.bottom" timestamp="1643245128473">
+    <state width="1237" height="153" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1643598612301" />
+    <state width="1237" height="169" key="GridCell.Tab.1.bottom" timestamp="1643596840960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="131" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643245128473" />
-    <state width="1237" height="131" key="GridCell.Tab.1.center" timestamp="1643245128473">
+    <state width="1237" height="169" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643596840960" />
+    <state width="1237" height="169" key="GridCell.Tab.1.center" timestamp="1643596840960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="131" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1643245128473" />
-    <state width="1237" height="131" key="GridCell.Tab.1.left" timestamp="1643245128473">
+    <state width="1237" height="169" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1643596840960" />
+    <state width="1237" height="169" key="GridCell.Tab.1.left" timestamp="1643596840960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="131" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1643245128473" />
-    <state width="1237" height="131" key="GridCell.Tab.1.right" timestamp="1643245128473">
+    <state width="1237" height="169" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1643596840960" />
+    <state width="1237" height="169" key="GridCell.Tab.1.right" timestamp="1643596840960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="131" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1643245128473" />
+    <state width="1237" height="169" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1643596840960" />
     <state width="1237" height="257" key="GridCell.Tab.2.bottom" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
