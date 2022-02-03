@@ -1,9 +1,11 @@
 package com.hhnail.designmode.strategy;
 
 import com.hhnail.util.HArrayUtil;
+import lombok.Data;
 
 import java.util.Arrays;
 
+@Data
 public class Cat implements HComparable<Cat> {
 
 	public static void main(String[] args) {
@@ -17,8 +19,15 @@ public class Cat implements HComparable<Cat> {
 
 	private double speed;
 
+	private int age;
+
 	public Cat(double speed) {
 		this.speed = speed;
+	}
+
+	public Cat(double speed, int age) {
+		this.speed = speed;
+		this.age = age;
 	}
 
 	@Override
@@ -31,10 +40,4 @@ public class Cat implements HComparable<Cat> {
 		return 0;
 	}
 
-	@Override
-	public String toString() {
-		return "Cat{" +
-				"speed=" + speed +
-				'}';
-	}
 }
