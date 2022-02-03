@@ -1,5 +1,7 @@
 package com.hhnail.util;
 
+import com.hhnail.designmode.strategy.HComparable;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -45,6 +47,7 @@ public class HArrayUtil {
 
 	/**
 	 * 获取无序随机 int[]
+	 *
 	 * @param bound 边界值，不包含边界自身  [0,bound)
 	 * @return
 	 */
@@ -63,6 +66,8 @@ public class HArrayUtil {
 		return randomIntArr;
 	}
 
+
+	// 遍历数组内容
 	public static void printIntArr(int[] arr) {
 		System.out.println(Arrays.toString(arr));
 	}
@@ -83,5 +88,35 @@ public class HArrayUtil {
 
 	public static void printIntArr(double[] arr) {
 		System.out.println(Arrays.toString(arr));
+	}
+
+
+	/**
+	 * 选择排序
+	 * 默认降序
+	 */
+	public static void selectionSort(HComparable[] arr) {
+		for (int j = 0; j < arr.length; j++) {
+			int minIndex = j;
+			for (int i = j; i < arr.length; i++) {
+				if (arr[i].compareTo(arr[minIndex]) < 0) {
+					minIndex = i;
+				}
+			}
+			swap(arr, minIndex, j);
+		}
+	}
+
+	/**
+	 * 在原数组的基础上交换数组内容
+	 *
+	 * @param arr    需要交换的数组
+	 * @param index1 下标1
+	 * @param index2 下标2。即将下标1和2的元素交换
+	 */
+	public static void swap(HComparable[] arr, int index1, int index2) {
+		HComparable temp = arr[index1];
+		arr[index1] = arr[index2];
+		arr[index2] = temp;
 	}
 }
