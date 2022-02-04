@@ -1,4 +1,4 @@
-package com.hhnail.leetcode;
+package com.hhnail.leetcode.linkedlist;
 
 import java.util.Stack;
 
@@ -92,21 +92,4 @@ public class ReverseList {
 		return newHead;
 	}
 
-}
-
-class ListNode {
-	int val;
-	ListNode next;
-
-	ListNode() {
-	}
-
-	ListNode(int val) {
-		this.val = val;
-	}
-
-	ListNode(int val, ListNode next) {
-		this.val = val;
-		this.next = next;
-	}
 }
