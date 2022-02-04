@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day07/FloodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day07/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day12/ClimbStairs.java" afterDir="false" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[leetcode算法]动态规划，爬楼梯over；开新坑，剑指offer">
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/AbstractSkin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/DefaultSkin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/FemaleSkin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/MaleSkin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/MicrosoftTypeWriting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/tooffer/CQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/tooffer/CQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/singleton/Mgr01.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/singleton/Mgr01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/singleton/Mgr06.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/singleton/Mgr06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/singleton/Mgr08.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/singleton/Mgr08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/CatAgeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/CatAgeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/HComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/HComparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/HComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/HComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/HSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/HSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/TestComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/TestComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +49,10 @@
       <list>
         <option value="XSLT Stylesheet" />
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,36 +105,36 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="ts.external.directory.path" value="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\node_modules\typescript\lib" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hhnail.web.bean" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hhnail" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hhnail.util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hhnail.web.bean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CQueue">
-    <configuration name="CQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.tooffer.CQueue" />
+  <component name="RunManager" selected="Application.Demo01">
+    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.pattern.strategy.Cat" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.tooffer.*" />
+          <option name="PATTERN" value="com.hhnail.pattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day12.ClimbStairs" />
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.principle.ocp.Demo01" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day12.*" />
+          <option name="PATTERN" value="com.hhnail.design.principle.ocp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day07.FloodFill" />
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.pattern.strategy.Dog" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day07.*" />
+          <option name="PATTERN" value="com.hhnail.pattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day06.LengthOfLongestSubstring" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.linkedlist.ReverseList" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day06.*" />
+          <option name="PATTERN" value="com.hhnail.leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.plan01.day07.Recursion" />
+    <configuration name="TestComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.pattern.strategy.TestComparator" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.plan01.day07.*" />
+          <option name="PATTERN" value="com.hhnail.pattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,20 +202,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LengthOfLongestSubstring" />
-      <item itemvalue="Application.FloodFill" />
-      <item itemvalue="Application.Recursion" />
       <item itemvalue="Spring Boot.MptestApplication" />
-      <item itemvalue="Application.ClimbStairs" />
-      <item itemvalue="Application.CQueue" />
+      <item itemvalue="Application.Dog" />
+      <item itemvalue="Application.Cat" />
+      <item itemvalue="Application.TestComparator" />
+      <item itemvalue="Application.ReverseList" />
+      <item itemvalue="Application.Demo01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CQueue" />
-        <item itemvalue="Application.ClimbStairs" />
-        <item itemvalue="Application.FloodFill" />
-        <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.LengthOfLongestSubstring" />
+        <item itemvalue="Application.Demo01" />
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.TestComparator" />
+        <item itemvalue="Application.Cat" />
+        <item itemvalue="Application.Dog" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +237,8 @@
       <workItem from="1642299653782" duration="7654000" />
       <workItem from="1642646951940" duration="3052000" />
       <workItem from="1643186074535" duration="19620000" />
-      <workItem from="1643423778460" duration="4183000" />
+      <workItem from="1643423778460" duration="9388000" />
+      <workItem from="1643853019905" duration="14810000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -350,7 +366,49 @@
       <option name="project" value="LOCAL" />
       <updated>1643251196547</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[leetcode算法]动态规划，爬楼梯over；开新坑，剑指offer">
+      <created>1643598649773</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1643598649773</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[leetcode算法]两个栈实现队列√；二进制1的个数还没做完；单例模式3种写法">
+      <created>1643854430392</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1643854430393</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[设计模式]泛型、比较器的运用">
+      <created>1643858315529</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1643858315529</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[design mode]策略模式Strategy，做同一件事（例如比较），有不同的策略（比年龄or身高or...）">
+      <created>1643880233458</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1643880233458</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[leetcode]206. 反转链表">
+      <created>1643966280518</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1643966280518</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[leetcode]抽取ListNode，准备写回文字符串">
+      <created>1643980438923</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1643980438923</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +452,13 @@
     <MESSAGE value="[数据结构]二叉树、顺序二叉树" />
     <MESSAGE value="[左程云]去哪儿网算法题;bilibili;20220123;" />
     <MESSAGE value="[leetcode算法]算法计划day06《无重复字符的最长子串》" />
-    <option name="LAST_COMMIT_MESSAGE" value="[leetcode算法]算法计划day06《无重复字符的最长子串》" />
+    <MESSAGE value="[leetcode算法]动态规划，爬楼梯over；开新坑，剑指offer" />
+    <MESSAGE value="[leetcode算法]两个栈实现队列√；二进制1的个数还没做完；单例模式3种写法" />
+    <MESSAGE value="[设计模式]泛型、比较器的运用" />
+    <MESSAGE value="[design mode]策略模式Strategy，做同一件事（例如比较），有不同的策略（比年龄or身高or...）" />
+    <MESSAGE value="[leetcode]206. 反转链表" />
+    <MESSAGE value="[leetcode]抽取ListNode，准备写回文字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="[leetcode]抽取ListNode，准备写回文字符串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Editor_|_Color_Scheme_|_General" timestamp="1641821473431">
@@ -417,10 +481,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="386" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1640957507790" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1642647138295">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1643984170670">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1642647138295" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1643984170670" />
     <state x="382" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1642299743463">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -429,14 +493,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="492" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1641267974941" />
-    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1641043171317">
+    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1643983844502">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1641043171317" />
+    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1643983844502" />
     <state x="425" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1640858071049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="425" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1640858071049" />
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1643856868982">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1643856868982" />
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640941491757">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -449,54 +517,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1643251195159">
+    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1643980437286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1643251195159" />
+    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1643980437286" />
     <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="469" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1640870710588" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1641529358489">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1643980422340">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1641529358489" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1643980422340" />
     <state x="345" y="81" key="FileChooserDialogImpl" timestamp="1641267973348">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="345" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1641267973348" />
-    <state width="1237" height="153" key="GridCell.Tab.0.bottom" timestamp="1643598612301">
+    <state width="726" height="114" key="GridCell.Tab.0.bottom" timestamp="1643984492959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643598612301" />
-    <state width="1237" height="153" key="GridCell.Tab.0.center" timestamp="1643598612301">
+    <state width="726" height="114" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643984492959" />
+    <state width="726" height="114" key="GridCell.Tab.0.center" timestamp="1643984492959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1643598612301" />
-    <state width="1237" height="153" key="GridCell.Tab.0.left" timestamp="1643598612301">
+    <state width="726" height="114" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1643984492959" />
+    <state width="726" height="114" key="GridCell.Tab.0.left" timestamp="1643984492959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1643598612301" />
-    <state width="1237" height="153" key="GridCell.Tab.0.right" timestamp="1643598612301">
+    <state width="726" height="114" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1643984492959" />
+    <state width="726" height="114" key="GridCell.Tab.0.right" timestamp="1643984492959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1643598612301" />
-    <state width="1237" height="169" key="GridCell.Tab.1.bottom" timestamp="1643596840960">
+    <state width="726" height="114" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1643984492959" />
+    <state width="1237" height="174" key="GridCell.Tab.1.bottom" timestamp="1643966714212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="169" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643596840960" />
-    <state width="1237" height="169" key="GridCell.Tab.1.center" timestamp="1643596840960">
+    <state width="1237" height="174" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643966714212" />
+    <state width="1237" height="174" key="GridCell.Tab.1.center" timestamp="1643966714212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="169" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1643596840960" />
-    <state width="1237" height="169" key="GridCell.Tab.1.left" timestamp="1643596840960">
+    <state width="1237" height="174" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1643966714212" />
+    <state width="1237" height="174" key="GridCell.Tab.1.left" timestamp="1643966714212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="169" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1643596840960" />
-    <state width="1237" height="169" key="GridCell.Tab.1.right" timestamp="1643596840960">
+    <state width="1237" height="174" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1643966714212" />
+    <state width="1237" height="174" key="GridCell.Tab.1.right" timestamp="1643966714212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="169" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1643596840960" />
+    <state width="1237" height="174" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1643966714212" />
     <state width="1237" height="257" key="GridCell.Tab.2.bottom" timestamp="1641527404404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -521,22 +589,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="461" y="51" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1642300076989" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1642299838056">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1643963505376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1642299838056" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1643963505376" />
+    <state x="387" y="255" key="VCS.ChangelistChooser" timestamp="1643980435555">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="387" y="255" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1643980435555" />
     <state x="642" y="256" key="VCS.EditChangelistDialog" timestamp="1642298841953">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="642" y="256" key="VCS.EditChangelistDialog/0.0.1280.680@0.0.1280.680" timestamp="1642298841953" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1643893357776">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1643893357776" />
     <state width="528" height="340" key="XDebugger.FullValuePopup" timestamp="1642214149148">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="528" height="340" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1642214149148" />
-    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643187800661">
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643856707116">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1643187800661" />
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1643856707116" />
     <state x="321" y="73" width="638" height="534" key="find.popup" timestamp="1641634653394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -545,14 +621,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="49" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1641043078549" />
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1642388721814">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1643858143448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1642388721814" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1642135725285">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1643858143448" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1643878285462">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1642135725285" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1643878285462" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -581,11 +657,6 @@
           <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day05/IsValidSudoku.java</url>
           <line>95</line>
           <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

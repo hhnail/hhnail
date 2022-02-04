@@ -1,4 +1,4 @@
-package com.hhnail.designmode.singleton;
+package com.hhnail.design.pattern.singleton;
 
 /**
  * 最简单高效的写法，能够保证线程安全

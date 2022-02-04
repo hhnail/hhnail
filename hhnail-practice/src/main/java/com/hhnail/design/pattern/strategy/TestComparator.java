@@ -1,4 +1,4 @@
-package com.hhnail.designmode.strategy;
+package com.hhnail.design.pattern.strategy;
 
 import java.util.Arrays;
 

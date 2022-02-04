@@ -1,4 +1,4 @@
-package com.hhnail.designmode.singleton;
+package com.hhnail.design.pattern.singleton;
 
 /**
  * 懒汉式
