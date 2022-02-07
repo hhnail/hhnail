@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * 剑指 Offer II 027. 回文链表
+ * @Vtag：栈、快慢指针
  * https://leetcode-cn.com/problems/aMhZSa/
  */
 public class IsPalindrome {
