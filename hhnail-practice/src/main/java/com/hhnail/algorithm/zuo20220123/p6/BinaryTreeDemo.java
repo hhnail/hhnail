@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.zuo20220123.p5;
+package com.hhnail.algorithm.zuo20220123.p6;
 
 import java.util.Stack;
 
@@ -24,7 +24,7 @@ public class BinaryTreeDemo {
 
 	}
 
-	// 非递归 前序遍历
+	// 前序遍历/先序遍历/深度优先遍历(非递归)
 	public static void preOrderUnRecur(VTreeNode head) {
 		if (head == null) return;
 		System.out.println("非递归前序遍历：");
