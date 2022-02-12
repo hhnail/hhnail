@@ -1,6 +1,6 @@
 package com.hhnail.util;
 
-import com.hhnail.design.pattern.strategy.HComparable;
+import com.hhnail.design.pattern.creator.strategy.HComparable;
 
 import java.util.Arrays;
 import java.util.Random;
