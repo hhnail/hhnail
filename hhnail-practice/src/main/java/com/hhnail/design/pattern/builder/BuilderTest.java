@@ -1,8 +1,7 @@
 package com.hhnail.design.pattern.builder;
 
 /**
- * 设计模式之建造者模式
- * 拓展
+ * 建造者模式拓展
  * 链式编程
  */
 public class BuilderTest {
@@ -14,5 +13,13 @@ public class BuilderTest {
 				.setScreen("screen1")
 				.build();
 		System.out.println(phone);
+
+		Phone phone2 = new Phone.Builder()
+				.setMainBoard("mainboard1")
+				.setMemory("memory1")
+				.setScreen("screen1")
+				.build();
+		System.out.println(phone2);
+
 	}
 }
