@@ -1,4 +1,4 @@
-package com.hhnail.design.pattern.structural.adapter.class_type;
+package com.hhnail.design.pattern.structural.adapter.object_type;
 
 /**
  * 计算机类
