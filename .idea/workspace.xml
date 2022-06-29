@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[leetcode算法]动态规划，爬楼梯over；开新坑，剑指offer">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/AbstractSkin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/DefaultSkin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/FemaleSkin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/MaleSkin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/principle/ocp/MicrosoftTypeWriting.java" afterDir="false" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="设计模式之适配器模式">
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220629/Solution01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/ByteUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/singleton/Mgr01.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/singleton/Mgr01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/singleton/Mgr06.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/singleton/Mgr06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/singleton/Mgr08.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/singleton/Mgr08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/CatAgeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/CatAgeComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/HComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/HComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/HComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/HComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/HSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/HSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/designmode/strategy/TestComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/strategy/TestComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/HArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/util/HArrayUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/zuo20220123/p6/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/zuo20220123/p6/BinaryTreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/AddBacon.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/AddBacon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/AddEgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/AddEgg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/GarnishedFastFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/GarnishedFastFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/META-INF/hhnail-practice.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +55,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -71,7 +68,6 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -85,7 +81,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -94,47 +89,50 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowHierarchy.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../RepMaven/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\node_modules\typescript\lib" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hhnail.web.bean" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hhnail" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-practice\src\main\java\com\hhnail\design\pattern\structural\adapter\object_type" />
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hhnail.design.pattern.structural.decorator" />
+      <recent name="com.hhnail.design.pattern.proxy.jdk" />
       <recent name="com.hhnail.util" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hhnail.web.bean" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo01">
-    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.pattern.strategy.Cat" />
+  <component name="RunManager" selected="Application.Solution01">
+    <configuration name="ByteUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.util.ByteUtil" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.pattern.strategy.*" />
+          <option name="PATTERN" value="com.hhnail.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.principle.ocp.Demo01" />
+    <configuration name="Solution01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220629.Solution01" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.design.principle.ocp.*" />
+          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220629.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.pattern.strategy.Dog" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.adapter.class_type.Test" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.pattern.strategy.*" />
+          <option name="PATTERN" value="com.hhnail.design.pattern.structural.adapter.class_type.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.leetcode.linkedlist.ReverseList" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.adapter.object_type.Test" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.leetcode.linkedlist.*" />
+          <option name="PATTERN" value="com.hhnail.design.pattern.structural.adapter.object_type.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,15 +179,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.pattern.strategy.TestComparator" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.proxy.cglib.Test" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.pattern.strategy.*" />
+          <option name="PATTERN" value="com.hhnail.design.pattern.structural.proxy.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.proxy.jdk.Test" />
+      <module name="hhnail-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhnail.design.pattern.structural.proxy.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.decorator.Test" />
+      <module name="hhnail-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hhnail.design.pattern.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MptestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mptest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhnail.web.MptestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,22 +233,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
       <item itemvalue="Spring Boot.MptestApplication" />
-      <item itemvalue="Application.Dog" />
-      <item itemvalue="Application.Cat" />
-      <item itemvalue="Application.TestComparator" />
-      <item itemvalue="Application.ReverseList" />
-      <item itemvalue="Application.Demo01" />
+      <item itemvalue="Spring Boot.MptestApplication (1)" />
+      <item itemvalue="Application.Solution01" />
+      <item itemvalue="Application.ByteUtil" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo01" />
-        <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.TestComparator" />
-        <item itemvalue="Application.Cat" />
-        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.Solution01" />
+        <item itemvalue="Application.ByteUtil" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_PROPERTIES,SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -238,7 +274,15 @@
       <workItem from="1642646951940" duration="3052000" />
       <workItem from="1643186074535" duration="19620000" />
       <workItem from="1643423778460" duration="9388000" />
-      <workItem from="1643853019905" duration="14810000" />
+      <workItem from="1643853019905" duration="20024000" />
+      <workItem from="1644119876997" duration="7664000" />
+      <workItem from="1644305760036" duration="6169000" />
+      <workItem from="1644551299738" duration="21381000" />
+      <workItem from="1645577345272" duration="1172000" />
+      <workItem from="1645960099523" duration="598000" />
+      <workItem from="1651297142149" duration="354000" />
+      <workItem from="1655801473533" duration="1843000" />
+      <workItem from="1656505967933" duration="3433000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -408,11 +452,88 @@
       <option name="project" value="LOCAL" />
       <updated>1643980438923</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="设计原则之开闭原则;重构设计部分包结构">
+      <created>1643984585001</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1643984585001</updated>
+    </task>
+    <task id="LOCAL-00026" summary="设计原则之里氏替换原则">
+      <created>1644027198408</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1644027198408</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[leetcode]剑指 Offer II 027. 回文链表">
+      <created>1644030860814</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644030860814</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[设计]里氏替换原则;@Vtag自定义标签，标记该题关键词（用到的算法、技巧、数据结构等）">
+      <created>1644224772850</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644224772850</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[算法与数据结构]非递归遍历二叉树">
+      <created>1644306348010</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1644306348010</updated>
+    </task>
+    <task id="LOCAL-00030" summary="设计模式之原型模式">
+      <created>1644551229873</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1644551229873</updated>
+    </task>
+    <task id="LOCAL-00031" summary="设计模式之建造者模式">
+      <created>1644571698983</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1644571698983</updated>
+    </task>
+    <task id="LOCAL-00032" summary="设计模式之代理模式">
+      <created>1644669732398</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1644669732398</updated>
+    </task>
+    <task id="LOCAL-00033" summary="将设计模式按照3种类型分包；设计模式之适配器模式（类式）；">
+      <created>1644671253716</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1644671253716</updated>
+    </task>
+    <task id="LOCAL-00034" summary="设计模式之适配器模式">
+      <created>1644722275319</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1644722275319</updated>
+    </task>
+    <task id="LOCAL-00035" summary="设计模式之装饰者模式">
+      <created>1644738766474</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644738766474</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -420,8 +541,34 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1644066490484" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="me" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -434,16 +581,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/hhnail-restful" />
     </ignored-roots>
-    <MESSAGE value="【算法】二分查找；首次错误版本【前端】构建基本路由" />
-    <MESSAGE value="[新增]引入树形控件和表格；配置前端代理" />
-    <MESSAGE value="[新增]为antd tree data构建数据结构（未完成）" />
-    <MESSAGE value="[重构]分离web项目和算法练习；统一npm包位置" />
-    <MESSAGE value="[新增]算法小结。leetcode数据结构day02；算法入门day04；" />
-    <MESSAGE value="[新增]新建API中Step1，引入步骤条及表单" />
-    <MESSAGE value="[新增]新建API查询可选表及其字段联动展示" />
-    <MESSAGE value="[算法]leetcode算法题-数据结构-day03" />
-    <MESSAGE value="[算法]leetcode算法题-数据结构-day04" />
-    <MESSAGE value="[算法]leetcode——算法入门day05" />
     <MESSAGE value="[算法]leetcode——数据结构day05 over;考完科三，重新开冲！" />
     <MESSAGE value="[算法]leetcode——数据结构day06、07；算法入门day05；尚硅谷数据结构手写单链表的遍历和add" />
     <MESSAGE value="[算法]Java实现单链表" />
@@ -458,205 +595,31 @@
     <MESSAGE value="[design mode]策略模式Strategy，做同一件事（例如比较），有不同的策略（比年龄or身高or...）" />
     <MESSAGE value="[leetcode]206. 反转链表" />
     <MESSAGE value="[leetcode]抽取ListNode，准备写回文字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="[leetcode]抽取ListNode，准备写回文字符串" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Editor_|_Color_Scheme_|_General" timestamp="1641821473431">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="0" key="#Editor_|_Color_Scheme_|_General/0.0.1280.680@0.0.1280.680" timestamp="1641821473431" />
-    <state x="233" y="0" key="#Notifications" timestamp="1640943457919">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1640943457919" />
-    <state x="233" y="0" key="#Project_Structure" timestamp="1641467055431">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1641467055431" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1641472573267">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1641472573267" />
-    <state x="386" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640957507790">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="386" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1640957507790" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1643984170670">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1643984170670" />
-    <state x="382" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1642299743463">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="382" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1642299743463" />
-    <state x="492" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1641267974941">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="492" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1641267974941" />
-    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1643983844502">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="213" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1643983844502" />
-    <state x="425" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1640858071049">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="425" y="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1640858071049" />
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1643856868982">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1643856868982" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640941491757">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1640941491757" />
-    <state x="396" y="43" key="#xdebugger.evaluate" timestamp="1642215140896">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="396" y="43" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1642215140896" />
-    <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1641284612662">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="372" y="177" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1641284612662" />
-    <state x="156" y="0" key="CommitChangelistDialog2" timestamp="1643980437286">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="156" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1643980437286" />
-    <state width="469" height="438" key="DebuggerActiveHint" timestamp="1640870710588">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="469" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1640870710588" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1643980422340">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1643980422340" />
-    <state x="345" y="81" key="FileChooserDialogImpl" timestamp="1641267973348">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="345" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1641267973348" />
-    <state width="726" height="114" key="GridCell.Tab.0.bottom" timestamp="1643984492959">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="726" height="114" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643984492959" />
-    <state width="726" height="114" key="GridCell.Tab.0.center" timestamp="1643984492959">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="726" height="114" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1643984492959" />
-    <state width="726" height="114" key="GridCell.Tab.0.left" timestamp="1643984492959">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="726" height="114" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1643984492959" />
-    <state width="726" height="114" key="GridCell.Tab.0.right" timestamp="1643984492959">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="726" height="114" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1643984492959" />
-    <state width="1237" height="174" key="GridCell.Tab.1.bottom" timestamp="1643966714212">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="174" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1643966714212" />
-    <state width="1237" height="174" key="GridCell.Tab.1.center" timestamp="1643966714212">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="174" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1643966714212" />
-    <state width="1237" height="174" key="GridCell.Tab.1.left" timestamp="1643966714212">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="174" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1643966714212" />
-    <state width="1237" height="174" key="GridCell.Tab.1.right" timestamp="1643966714212">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="174" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1643966714212" />
-    <state width="1237" height="257" key="GridCell.Tab.2.bottom" timestamp="1641527404404">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="257" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1641527404404" />
-    <state width="1237" height="257" key="GridCell.Tab.2.center" timestamp="1641527404404">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="257" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1641527404404" />
-    <state width="1237" height="257" key="GridCell.Tab.2.left" timestamp="1641527404404">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="257" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1641527404404" />
-    <state width="1237" height="257" key="GridCell.Tab.2.right" timestamp="1641527404404">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="257" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1641527404404" />
-    <state x="221" y="84" key="IDE.errors.dialog" timestamp="1641524110500">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="221" y="84" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1641524110500" />
-    <state x="461" y="51" key="RollbackChangesDialog" timestamp="1642300076989">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="461" y="51" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1642300076989" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1643963505376">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1643963505376" />
-    <state x="387" y="255" key="VCS.ChangelistChooser" timestamp="1643980435555">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="387" y="255" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1643980435555" />
-    <state x="642" y="256" key="VCS.EditChangelistDialog" timestamp="1642298841953">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="642" y="256" key="VCS.EditChangelistDialog/0.0.1280.680@0.0.1280.680" timestamp="1642298841953" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1643893357776">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1643893357776" />
-    <state width="528" height="340" key="XDebugger.FullValuePopup" timestamp="1642214149148">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="528" height="340" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1642214149148" />
-    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643856707116">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1643856707116" />
-    <state x="321" y="73" width="638" height="534" key="find.popup" timestamp="1641634653394">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="321" y="73" width="638" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1641634653394" />
-    <state x="49" y="35" key="new project wizard" timestamp="1641043078549">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="49" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1641043078549" />
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1643858143448">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1643858143448" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1643878285462">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1643878285462" />
+    <MESSAGE value="设计原则之开闭原则;重构设计部分包结构" />
+    <MESSAGE value="设计原则之里氏替换原则" />
+    <MESSAGE value="[leetcode]剑指 Offer II 027. 回文链表" />
+    <MESSAGE value="[设计]里氏替换原则;@Vtag自定义标签，标记该题关键词（用到的算法、技巧、数据结构等）" />
+    <MESSAGE value="[算法与数据结构]非递归遍历二叉树" />
+    <MESSAGE value="设计模式之原型模式" />
+    <MESSAGE value="设计模式之建造者模式" />
+    <MESSAGE value="设计模式之代理模式" />
+    <MESSAGE value="将设计模式按照3种类型分包；设计模式之适配器模式（类式）；" />
+    <MESSAGE value="设计模式之适配器模式" />
+    <MESSAGE value="设计模式之装饰者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式之装饰者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day02/SortedSquares.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/Test.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/Intersect.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day04/Generate.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day05/IsValidSudoku.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day05/IsValidSudoku.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="69" />
+          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/ByteUtil.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -665,11 +628,14 @@
     <SUITE FILE_PATH="coverage/hhnail$SearchInsert.ic" NAME="SearchInsert Coverage Results" MODIFIED="1641117174600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hhnail.leetcode.plan01.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/hhnail$IsValidSudoku.ic" NAME="IsValidSudoku Coverage Results" MODIFIED="1641821435525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hhnail.leetcode.datastructure01.day05.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/hhnail$HIntLinkedList.ic" NAME="HIntLinkedList Coverage Results" MODIFIED="1642215163482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hhnail.datastructure.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hhnail$Solution01.ic" NAME="Solution01 Coverage Results" MODIFIED="1656507535445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hhnail.algorithm.leetcode220629.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hhnail$IsValidSudoku.ic" NAME="IsValidSudoku Coverage Results" MODIFIED="1641821435525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hhnail.leetcode.datastructure01.day05.*</FILTER>
     </SUITE>
   </component>
 </project>
