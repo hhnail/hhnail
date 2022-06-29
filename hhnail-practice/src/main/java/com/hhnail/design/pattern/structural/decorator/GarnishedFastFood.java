@@ -26,6 +26,12 @@ public abstract class GarnishedFastFood extends FastFood {
 	}
 
 	@Override
+	public float cost() {
+		// 主食 + 配料
+		return getFastFood().cost() + getPrice();
+	}
+
+	@Override
 	public String toString() {
 		return this.getDesc() + " " + this.cost() + "元";
 	}

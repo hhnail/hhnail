@@ -10,11 +10,6 @@ public class AddEgg extends GarnishedFastFood {
 		super(fastFood, 1, "鸡蛋");
 	}
 
-	@Override
-	public float cost() {
-		// 主食 + 配料
-		return getFastFood().cost() + getPrice();
-	}
 
 	@Override
 	public String getDesc() {

@@ -9,11 +9,11 @@ public class AddBacon extends GarnishedFastFood {
 		super(fastFood, 2, "培根");
 	}
 
-	@Override
-	public float cost() {
-		// 主食 + 配料
-		return getFastFood().cost() + getPrice();
-	}
+	// @Override
+	// public float cost() {
+	// 	// 主食 + 配料
+	// 	return getFastFood().cost() + getPrice();
+	// }
 
 	@Override
 	public String getDesc() {

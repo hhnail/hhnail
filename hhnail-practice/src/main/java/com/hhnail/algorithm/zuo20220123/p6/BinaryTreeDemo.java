@@ -10,6 +10,11 @@ public class BinaryTreeDemo {
 		VTreeNode node4 = new VTreeNode(4);
 		VTreeNode node5 = new VTreeNode(5);
 
+		/*
+							1
+					2               3
+				4       5
+		 */
 		node2.left = node4;
 		node2.right = node5;
 		node1.left = node2;
