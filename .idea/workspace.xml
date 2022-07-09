@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="设计模式之适配器模式">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220629/Solution01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/ByteUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[设计模式]装饰者模式">
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/multi_thread/TestThread1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/zuo20220123/p6/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/zuo20220123/p6/BinaryTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/AddBacon.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/AddBacon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/AddEgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/AddEgg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/GarnishedFastFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/design/pattern/structural/decorator/GarnishedFastFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/META-INF/hhnail-practice.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +118,7 @@
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution01">
+  <component name="RunManager" selected="Application.TestThread1">
     <configuration name="ByteUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhnail.util.ByteUtil" />
       <module name="hhnail-practice" />
@@ -179,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.proxy.cglib.Test" />
+    <configuration name="TestThread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.multi_thread.TestThread1" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.design.pattern.structural.proxy.cglib.*" />
+          <option name="PATTERN" value="com.hhnail.multi_thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,20 +225,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
-      <item itemvalue="Spring Boot.MptestApplication" />
-      <item itemvalue="Spring Boot.MptestApplication (1)" />
       <item itemvalue="Application.Solution01" />
       <item itemvalue="Application.ByteUtil" />
+      <item itemvalue="Spring Boot.MptestApplication" />
+      <item itemvalue="Spring Boot.MptestApplication (1)" />
+      <item itemvalue="Application.TestThread1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestThread1" />
         <item itemvalue="Application.Solution01" />
         <item itemvalue="Application.ByteUtil" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
@@ -282,7 +274,8 @@
       <workItem from="1645960099523" duration="598000" />
       <workItem from="1651297142149" duration="354000" />
       <workItem from="1655801473533" duration="1843000" />
-      <workItem from="1656505967933" duration="3433000" />
+      <workItem from="1656505967933" duration="3579000" />
+      <workItem from="1657358180817" duration="1818000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -529,7 +522,35 @@
       <option name="project" value="LOCAL" />
       <updated>1644738766474</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[算法]转换数字的最少位翻转次数">
+      <created>1656509444656</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1656509444656</updated>
+    </task>
+    <task id="LOCAL-00037" summary="乱七八糟">
+      <created>1656509456963</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1656509456963</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[工具]将一个2进制的int转为10禁止的int">
+      <created>1656509499693</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1656509499693</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[设计模式]装饰者模式">
+      <created>1656509544220</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1656509544220</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,10 +602,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/hhnail-restful" />
     </ignored-roots>
-    <MESSAGE value="[算法]leetcode——数据结构day05 over;考完科三，重新开冲！" />
-    <MESSAGE value="[算法]leetcode——数据结构day06、07；算法入门day05；尚硅谷数据结构手写单链表的遍历和add" />
-    <MESSAGE value="[算法]Java实现单链表" />
-    <MESSAGE value=".gitignore" />
     <MESSAGE value=".gitignore update" />
     <MESSAGE value="[数据结构]二叉树、顺序二叉树" />
     <MESSAGE value="[左程云]去哪儿网算法题;bilibili;20220123;" />
@@ -606,7 +623,11 @@
     <MESSAGE value="将设计模式按照3种类型分包；设计模式之适配器模式（类式）；" />
     <MESSAGE value="设计模式之适配器模式" />
     <MESSAGE value="设计模式之装饰者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式之装饰者模式" />
+    <MESSAGE value="[算法]转换数字的最少位翻转次数" />
+    <MESSAGE value="乱七八糟" />
+    <MESSAGE value="[工具]将一个2进制的int转为10禁止的int" />
+    <MESSAGE value="[设计模式]装饰者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="[设计模式]装饰者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
