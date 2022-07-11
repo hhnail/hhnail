@@ -21,6 +21,7 @@ public class TestThread1 implements Runnable {
     @Override
     public void run() {
         while (true) {
+            // 线程不安全
             if (ticketNum <= 0) {
                 break;
             }

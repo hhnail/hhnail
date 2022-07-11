@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[设计模式]装饰者模式">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/multi_thread/TestThread1.java" afterDir="false" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[练习]多线程学习">
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/multi_thread/TestJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/multi_thread/TestThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/multi_thread/TestThread1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestThread1">
+  <component name="RunManager" selected="Application.TestJoin">
     <configuration name="ByteUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhnail.util.ByteUtil" />
       <module name="hhnail-practice" />
@@ -145,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.adapter.class_type.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.adapter.object_type.Test" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.design.pattern.structural.adapter.class_type.*" />
+          <option name="PATTERN" value="com.hhnail.design.pattern.structural.adapter.object_type.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.design.pattern.structural.adapter.object_type.Test" />
+    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.multi_thread.TestJoin" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.design.pattern.structural.adapter.object_type.*" />
+          <option name="PATTERN" value="com.hhnail.multi_thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,21 +226,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Solution01" />
       <item itemvalue="Application.ByteUtil" />
       <item itemvalue="Spring Boot.MptestApplication" />
       <item itemvalue="Spring Boot.MptestApplication (1)" />
       <item itemvalue="Application.TestThread1" />
+      <item itemvalue="Application.TestJoin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJoin" />
         <item itemvalue="Application.TestThread1" />
         <item itemvalue="Application.Solution01" />
         <item itemvalue="Application.ByteUtil" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +276,7 @@
       <workItem from="1651297142149" duration="354000" />
       <workItem from="1655801473533" duration="1843000" />
       <workItem from="1656505967933" duration="3579000" />
-      <workItem from="1657358180817" duration="1818000" />
+      <workItem from="1657358180817" duration="5446000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -550,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656509544220</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="[练习]多线程学习">
+      <created>1657360998990</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1657360998990</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +610,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/hhnail-restful" />
     </ignored-roots>
-    <MESSAGE value=".gitignore update" />
     <MESSAGE value="[数据结构]二叉树、顺序二叉树" />
     <MESSAGE value="[左程云]去哪儿网算法题;bilibili;20220123;" />
     <MESSAGE value="[leetcode算法]算法计划day06《无重复字符的最长子串》" />
@@ -627,7 +634,8 @@
     <MESSAGE value="乱七八糟" />
     <MESSAGE value="[工具]将一个2进制的int转为10禁止的int" />
     <MESSAGE value="[设计模式]装饰者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="[设计模式]装饰者模式" />
+    <MESSAGE value="[练习]多线程学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="[练习]多线程学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
