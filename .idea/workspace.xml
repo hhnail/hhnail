@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[leetcode]整数反转">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220718/Solution2.java" afterDir="false" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[leetcode]替换数组中的元素">
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220718/Solution4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +120,7 @@
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
+  <component name="RunManager" selected="Application.Solution4">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220718.Solution" />
       <module name="hhnail-practice" />
@@ -160,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.multi_thread.TestJoin" />
+    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220718.Solution4" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.multi_thread.*" />
+          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220718.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.multi_thread.TestThread1" />
+    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.multi_thread.TestJoin" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
@@ -214,21 +214,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestThread1" />
       <item itemvalue="Application.TestJoin" />
       <item itemvalue="Spring Boot.MptestApplication" />
       <item itemvalue="Spring Boot.MptestApplication (1)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestJoin" />
-        <item itemvalue="Application.TestThread1" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +265,7 @@
       <workItem from="1655801473533" duration="1843000" />
       <workItem from="1656505967933" duration="3579000" />
       <workItem from="1657358180817" duration="7270000" />
-      <workItem from="1658106583103" duration="6511000" />
+      <workItem from="1658106583103" duration="10995000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -568,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658109671104</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="[leetcode]替换数组中的元素">
+      <created>1658137373202</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1658137373202</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +627,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/hhnail-restful" />
     </ignored-roots>
-    <MESSAGE value="[leetcode算法]动态规划，爬楼梯over；开新坑，剑指offer" />
     <MESSAGE value="[leetcode算法]两个栈实现队列√；二进制1的个数还没做完；单例模式3种写法" />
     <MESSAGE value="[设计模式]泛型、比较器的运用" />
     <MESSAGE value="[design mode]策略模式Strategy，做同一件事（例如比较），有不同的策略（比年龄or身高or...）" />
@@ -645,7 +651,8 @@
     <MESSAGE value="[练习]多线程-join" />
     <MESSAGE value="[leetcode]两个数对之间的最大乘积差" />
     <MESSAGE value="[leetcode]整数反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="[leetcode]整数反转" />
+    <MESSAGE value="[leetcode]替换数组中的元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="[leetcode]替换数组中的元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,6 +666,16 @@
           <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/util/ByteUtil.java</url>
           <line>17</line>
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220718/Solution4.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220718/Solution4.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
