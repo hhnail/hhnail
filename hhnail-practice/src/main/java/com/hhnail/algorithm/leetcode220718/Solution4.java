@@ -15,21 +15,28 @@ public class Solution4 {
         // int[] distince = {7, 10, 1, 12, 11, 14, 5, 0};
         // System.out.println(solution.distanceBetweenBusStops(distince, 7, 2));
 
+        // int[] distince = {1, 2, 3, 4};
+        // System.out.println(solution.distanceBetweenBusStops(distince, 0, 2));
+
     }
 
 
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
+        int length = distance.length;
+        int current = start;
+        int current2 = start + length - 1;
+
         int line1 = 0;
         int line2 = 0;
-        int count = distance.length;
-        while (start % count < destination || (distance.length - start - 1) % count >= destination) {
-            if (start < destination) {
-                line1 += distance[start];
+        while (((current % length != destination) && (current2 % length != (destination-1)))) {
+            if (current % length != destination) {
+                line1 += distance[current % length];
             }
-            if ((distance.length - start - 1) >= destination) {
-                line2 += distance[distance.length - start - 1];
+            if (current2 % length != (destination-1)) {
+                line2 += distance[current2 % length];
             }
-            start++;
+            current++;
+            current2 = current2 + length - 1;
         }
         return Math.min(line1, line2);
     }
