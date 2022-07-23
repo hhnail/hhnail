@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[leetcode]公交站间的距离。//自闭了，怎么改都不通过">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220722/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220722/Solution2.java" afterDir="false" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[leetcode]数组中的第 k 大的数字">
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220723/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,13 +128,13 @@
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2 (1)">
-    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220722.Solution1" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220723.Solution" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220722.*" />
+          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220723.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220718.Solution1" />
+    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220722.Solution1" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220718.*" />
+          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220722.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,21 +209,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution4" />
-      <item itemvalue="Spring Boot.MptestApplication" />
-      <item itemvalue="Spring Boot.MptestApplication (1)" />
       <item itemvalue="Application.Solution1 (1)" />
       <item itemvalue="Application.Solution2 (1)" />
+      <item itemvalue="Spring Boot.MptestApplication" />
+      <item itemvalue="Spring Boot.MptestApplication (1)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution1 (1)" />
         <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +261,8 @@
       <workItem from="1656505967933" duration="3579000" />
       <workItem from="1657358180817" duration="7270000" />
       <workItem from="1658106583103" duration="19700000" />
-      <workItem from="1658387879750" duration="5491000" />
+      <workItem from="1658387879750" duration="5523000" />
+      <workItem from="1658535117235" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="【算法】二分查找；首次错误版本【前端】构建基本路由">
       <created>1640942751491</created>
@@ -586,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658199482445</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="[leetcode]数组中的第 k 大的数字">
+      <created>1658473940281</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1658473940281</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +645,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/hhnail-restful" />
     </ignored-roots>
-    <MESSAGE value="[design mode]策略模式Strategy，做同一件事（例如比较），有不同的策略（比年龄or身高or...）" />
     <MESSAGE value="[leetcode]206. 反转链表" />
     <MESSAGE value="[leetcode]抽取ListNode，准备写回文字符串" />
     <MESSAGE value="设计原则之开闭原则;重构设计部分包结构" />
@@ -663,7 +669,8 @@
     <MESSAGE value="[leetcode]替换数组中的元素" />
     <MESSAGE value="[leetcode]公交站间的距离" />
     <MESSAGE value="[leetcode]公交站间的距离。//自闭了，怎么改都不通过" />
-    <option name="LAST_COMMIT_MESSAGE" value="[leetcode]公交站间的距离。//自闭了，怎么改都不通过" />
+    <MESSAGE value="[leetcode]数组中的第 k 大的数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="[leetcode]数组中的第 k 大的数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
