@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div id="app">
+    <br><br>
+    姓：<input v-model="firstName"/>
+    <br><br>
+    名：<input v-model="lastName"/>
+    <br><br>
+    全名：{{fullName}}
+    <br><br>
+    <!--第二次读取【缓存！】。不走get-->
+    全名：{{fullName}}
+</div>
+
+<script>
+
+    const vue = new Vue({
+        el: '#app',
+        data: {
+            firstName: 'zhang',
+            lastName: 'san',
+        },
+        methods: {
+        },
+        computed: {
+            fullName: {
+                // get被调用的时机：初次读取 或者 依赖的数据发生改变时
+                get() {
+                    console.log("get executed!")
+                    return this.firstName + this.lastName
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>
+

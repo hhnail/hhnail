@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div id="app">
+    <br><br>
+    姓：<input v-model="firstName"/>
+    <br><br>
+    名：<input v-model="lastName"/>
+    <br><br>
+    全名：{{fullName}}
+    <br><br>
+    <!--第二次读取【缓存！】。不走get-->
+    全名：{{fullName}}
+    <br><br>
+    a：<input v-model="numbers.a"/>
+    <br><br>
+    jianxie：<input v-model="jianxie"/>
+</div>
+
+<script>
+    Vue.config.productionTip = false
+
+    const vue = new Vue({
+        el: '#app',
+        data: {
+            firstName: 'zhang',
+            lastName: 'san',
+            numbers: {
+                a: 1,
+                b: 2,
+            },
+            jianxie:true,
+        },
+        methods: {},
+        computed: {
+            fullName: {
+                // get被调用的时机：初次读取 或者 依赖的数据发生改变时
+                get() {
+                    // console.log("get executed!")
+                    return this.firstName + this.lastName
+                }
+            }
+        },
+        watch: {
+            'numbers.a': {
+                // 立即触发，而不是执行再触发
+                immediate: true,
+                // 深度监测
+                deep: true,
+                handler(newV, oldV) {
+                    console.log("a changed")
+                }
+            },
+            // watch简写。这样就不能配置其他东西了
+            jianxie(newV, oldV){
+                console.log("jianxie changed")
+            }
+        },
+    })
+
+    // vue.$watch(
+    //     'firstName', {
+    //         immediate: true,
+    //         handler(newV, oldV) {
+    //             console.log("firstName changed")
+    //         }
+    //     }
+    // )
+</script>
+</body>
+</html>
+

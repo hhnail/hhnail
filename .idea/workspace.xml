@@ -5,89 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[算法leetcode]装满杯子需要的最短总时长">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/bean/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220814/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220827/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/NullTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-ui/util/stringUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/01入门案例/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/02模板语法/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/03数据绑定/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/04数据代理/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/05事件处理/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/08计算属性/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/08计算属性/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/09监视属性/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/13收集表单数据/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-folder/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220629/Solution01.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220629/Solution01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220718/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220718/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220718/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220718/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220718/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220718/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220718/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220718/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220722/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220722/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220722/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220722/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220723/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220723/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220723/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220723/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode220724/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220724/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day01/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day01/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day01/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day01/MaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day02/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day02/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day02/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day02/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/Intersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day03/Intersect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day03/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day03/MaxProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day04/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day04/Generate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day04/MatrixReshape.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day04/MatrixReshape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day05/IsValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day05/IsValidSudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day05/SetZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day05/SetZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day06/CanConstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day06/CanConstruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day06/FirstUniqChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day06/FirstUniqChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day06/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day06/IsAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day07/HasCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day07/HasCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/datastructure01/day07/MergeTwoLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/linkedlist/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/linkedlist/IsPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/linkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/linkedlist/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/linkedlist/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/LinkedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/LinkedNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day01/Dichotomy.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day01/Dichotomy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day01/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day01/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day01/SearchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day01/SearchInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day02/Rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day02/Rotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day02/SortedSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day02/SortedSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day03/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day03/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day03/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day03/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day04/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day04/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day04/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day04/ReverseWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day05/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day05/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day05/MiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day05/MiddleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day05/RemoveNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day05/RemoveNthFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day06/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day06/LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day06/TestFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day06/TestFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day06/TestIPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day06/TestIPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day07/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day07/FloodFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day07/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day07/Recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/plan01/day12/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/plan01/day12/ClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/random/RelativeSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/random/RelativeSortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/tooffer/day01/CQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/tooffer/day01/CQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/leetcode/tooffer/day21/HammingWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/tooffer/day21/HammingWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day01/ContainsDuplicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day01/MaxSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day02/Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day02/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day03/Intersect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day03/MaxProfit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day04/Generate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day04/MatrixReshape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day05/IsValidSudoku.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day05/SetZeroes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day06/CanConstruct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day06/FirstUniqChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day06/IsAnagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day07/HasCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/datastructure01/day07/MergeTwoLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/LinkedNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day01/Dichotomy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day01/FirstBadVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day01/SearchInsert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day01/VersionControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day02/Rotate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day02/SortedSquares.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day03/MoveZeroes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day03/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day04/ReverseString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day04/ReverseWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day05/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day05/MiddleNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/plan01/day05/RemoveNthFromEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhnail-practice/target/classes/com/hhnail/leetcode/random/RelativeSortArray.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +55,7 @@
         <option value="TypeScript File" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -143,8 +79,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\workspace\RepMaven" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Server/apache-maven-3.8.4" />
-        <option name="userSettingsFile" value="D:\workspace\Server\apache-maven-3.8.4\conf\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../server/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\workspace\server\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -158,6 +94,7 @@
   </component>
   <component name="ProjectId" id="23039VA9DhYO05XLrvFrNwxLBHB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -176,13 +113,13 @@
     <property name="ToolWindowHierarchy.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hhnail-ui/util" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
     <property name="ts.external.directory.path" value="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\node_modules\typescript\lib" />
   </component>
@@ -190,13 +127,16 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hhnail.web.bean" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hhnail" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\vSrc\hhnail\hhnail-ui\util" />
+      <recent name="D:\workspace\vSrc\hhnail\vue" />
+      <recent name="D:\workspace\vSrc\hhnail\hhnail-practice\src\main\java\com\hhnail\test" />
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-practice\src\main\java\com\hhnail\design\pattern\structural\adapter\object_type" />
       <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\src" />
     </key>
@@ -205,11 +145,11 @@
       <recent name="com.hhnail.design.pattern.proxy.jdk" />
       <recent name="com.hhnail.util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hhnail.web.bean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220724.Solution" />
       <module name="hhnail-practice" />
@@ -236,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220723.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode.d220827.Solution" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220723.*" />
+          <option name="PATTERN" value="com.hhnail.algorithm.leetcode.d220827.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220722.Solution2" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220723.Solution" />
       <module name="hhnail-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220722.*" />
+          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220723.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,25 +230,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2 (1)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution2 (2)" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Spring Boot.MptestApplication" />
       <item itemvalue="Spring Boot.MptestApplication (1)" />
-      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2 (2)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution2 (1)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_PROPERTIES,SHOW_INHERITED" />
   </component>
@@ -347,6 +287,9 @@
       <workItem from="1658649961151" duration="5342000" />
       <workItem from="1659740256677" duration="383000" />
       <workItem from="1660468350563" duration="1407000" />
+      <workItem from="1661564932979" duration="3587000" />
+      <workItem from="1662370185730" duration="411000" />
+      <workItem from="1662449844151" duration="279000" />
     </task>
     <task id="LOCAL-00002" summary="[新增]引入树形控件和表格；配置前端代理">
       <created>1640953641074</created>
@@ -695,7 +638,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -727,7 +670,7 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="me" />
+                  <option value="*" />
                 </option>
               </RecentGroup>
             </list>
@@ -735,6 +678,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -770,6 +714,40 @@
     <MESSAGE value="[算法leetcode]装满杯子需要的最短总时长" />
     <option name="LAST_COMMIT_MESSAGE" value="[算法leetcode]装满杯子需要的最短总时长" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1661565001748">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1661565001748" />
+    <state width="1237" height="136" key="GridCell.Tab.0.bottom" timestamp="1661576818074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="136" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
+    <state width="1237" height="136" key="GridCell.Tab.0.center" timestamp="1661576818074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="136" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
+    <state width="1237" height="136" key="GridCell.Tab.0.left" timestamp="1661576818074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="136" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
+    <state width="1237" height="136" key="GridCell.Tab.0.right" timestamp="1661576818074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1661565006524">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1661565006524" />
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1662370200094">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1662370200094" />
+    <state x="28" y="1" key="new project wizard" timestamp="1662449976389">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1662449976389" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -790,14 +768,14 @@
     <SUITE FILE_PATH="coverage/hhnail$SearchInsert.ic" NAME="SearchInsert Coverage Results" MODIFIED="1641117174600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hhnail.leetcode.plan01.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/hhnail$IsValidSudoku.ic" NAME="IsValidSudoku Coverage Results" MODIFIED="1641821435525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hhnail.leetcode.datastructure01.day05.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/hhnail$HIntLinkedList.ic" NAME="HIntLinkedList Coverage Results" MODIFIED="1642215163482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hhnail.datastructure.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/hhnail$Solution01.ic" NAME="Solution01 Coverage Results" MODIFIED="1656507535445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hhnail.algorithm.leetcode220629.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hhnail$IsValidSudoku.ic" NAME="IsValidSudoku Coverage Results" MODIFIED="1641821435525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hhnail.leetcode.datastructure01.day05.*</FILTER>
     </SUITE>
   </component>
 </project>

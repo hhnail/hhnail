@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div id="app">
+    <br><br>
+    姓：<input v-model="firstName"/>
+    <br><br>
+    名：<input v-model="lastName"/>
+    <br><br>
+    全名：{{fullName}}
+</div>
+
+<script>
+
+    const vue = new Vue({
+        el: '#app',
+        data: {
+            firstName: 'zhang',
+            lastName: 'san',
+        },
+        methods: {},
+        computed: {
+            // 只读不改就可以向下面这样简写
+            fullName: function () {
+                return this.firstName + "-" + this.lastName
+            }
+        }
+    })
+</script>
+</body>
+</html>
+
