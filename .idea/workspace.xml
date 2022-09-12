@@ -25,7 +25,6 @@
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/BooleanTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +33,6 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="71" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,7 +107,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.run.dashboard.notification" value="false" />
     <property name="ts.external.directory.path" value="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\node_modules\typescript\lib" />
   </component>
@@ -742,10 +727,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1661565006524">
+    <state x="277" y="101" key="MultipleFileMergeDialog" timestamp="1662946472469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1661565006524" />
+    <state x="277" y="101" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1662946472469" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1662946555090">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1662946555090" />
     <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1662370200094">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -770,19 +759,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hhnail$SearchInsert.ic" NAME="SearchInsert Coverage Results" MODIFIED="1641117174600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hhnail.leetcode.plan01.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hhnail$IsValidSudoku.ic" NAME="IsValidSudoku Coverage Results" MODIFIED="1641821435525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hhnail.leetcode.datastructure01.day05.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hhnail$HIntLinkedList.ic" NAME="HIntLinkedList Coverage Results" MODIFIED="1642215163482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hhnail.datastructure.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/hhnail$Solution01.ic" NAME="Solution01 Coverage Results" MODIFIED="1656507535445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hhnail.algorithm.leetcode220629.*</FILTER>
-    </SUITE>
   </component>
 </project>
