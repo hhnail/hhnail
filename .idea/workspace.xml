@@ -3,25 +3,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="[算法leetcode]装满杯子需要的最短总时长">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/algorithm/leetcode/d220827/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/NullTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-ui/util/stringUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/01入门案例/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/02模板语法/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/03数据绑定/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/04数据代理/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/05事件处理/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/08计算属性/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/08计算属性/demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/09监视属性/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/13收集表单数据/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-folder/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/BooleanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/MapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -715,6 +718,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="[算法leetcode]装满杯子需要的最短总时长" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1662945530648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1662945530648" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1661565001748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
