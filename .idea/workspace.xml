@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/BooleanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hhnail-practice/src/main/java/com/hhnail/test/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,6 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowHierarchy.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -107,7 +106,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
     <property name="ts.external.directory.path" value="D:\workspace\java\src\idea_workspace\hhnail\hhnail-ui\node_modules\typescript\lib" />
   </component>
@@ -136,105 +135,6 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hhnail.web.bean" />
     </key>
-  </component>
-  <component name="RunManager" selected="Application.Solution (3)">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220724.Solution" />
-      <module name="hhnail-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220724.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode.d220814.Solution" />
-      <module name="hhnail-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode.d220814.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode.d220827.Solution" />
-      <module name="hhnail-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode.d220827.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220723.Solution" />
-      <module name="hhnail-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220723.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hhnail.algorithm.leetcode220723.Solution2" />
-      <module name="hhnail-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hhnail.algorithm.leetcode220723.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MptestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mptest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhnail.web.MptestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MptestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hhnail-restful" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hhnail.web.MptestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution2 (2)" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Spring Boot.MptestApplication" />
-      <item itemvalue="Spring Boot.MptestApplication (1)" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution2 (2)" />
-        <item itemvalue="Application.Solution" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="StructureViewFactory">
@@ -278,13 +178,8 @@
       <workItem from="1661564932979" duration="3587000" />
       <workItem from="1662370185730" duration="411000" />
       <workItem from="1662449844151" duration="279000" />
-    </task>
-    <task id="LOCAL-00002" summary="[新增]引入树形控件和表格；配置前端代理">
-      <created>1640953641074</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1640953641074</updated>
+      <workItem from="1662946669006" duration="542000" />
+      <workItem from="1662947228173" duration="125000" />
     </task>
     <task id="LOCAL-00003" summary="[新增]为antd tree data构建数据结构（未完成）">
       <created>1640957315328</created>
@@ -622,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658658025812</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="map test">
+      <created>1662946756156</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1662946756157</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +577,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/hhnail-restful" />
     </ignored-roots>
-    <MESSAGE value="设计原则之里氏替换原则" />
     <MESSAGE value="[leetcode]剑指 Offer II 027. 回文链表" />
     <MESSAGE value="[设计]里氏替换原则;@Vtag自定义标签，标记该题关键词（用到的算法、技巧、数据结构等）" />
     <MESSAGE value="[算法与数据结构]非递归遍历二叉树" />
@@ -700,9 +601,18 @@
     <MESSAGE value="[leetcode]斐波那契数列" />
     <MESSAGE value="[算法@动态规划] 978. 最长湍流子数组" />
     <MESSAGE value="[算法leetcode]装满杯子需要的最短总时长" />
-    <option name="LAST_COMMIT_MESSAGE" value="[算法leetcode]装满杯子需要的最短总时长" />
+    <MESSAGE value="map test" />
+    <option name="LAST_COMMIT_MESSAGE" value="map test" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662947353092">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1662947353092" />
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1662946754995">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1662946754995" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1662945530648">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -731,10 +641,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="101" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1662946472469" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1662946555090">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1662947285427">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1662946555090" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1662947285427" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1662946894734">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1662946894734" />
     <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1662370200094">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
