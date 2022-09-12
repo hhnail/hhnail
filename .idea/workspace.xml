@@ -22,9 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="89f92652-bef1-49ca-931f-1eade7a8b196" name="Default Changelist" comment="雷神笔记本本地仓库">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_9_5_17_30__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_9_5_17_30__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-practice/hhnail-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-practice/hhnail-practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhnail-restful/mptest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hhnail-restful/mptest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-folder/01入门案例/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-folder/01入门案例/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +139,7 @@
       <recent name="com.hhnail.web.bean" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_PROPERTIES,SHOW_INHERITED" />
   </component>
@@ -568,7 +571,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -604,60 +606,6 @@
     <MESSAGE value="map test" />
     <option name="LAST_COMMIT_MESSAGE" value="map test" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662947353092">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1662947353092" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1662946754995">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1662946754995" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1662945530648">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1662945530648" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1661565001748">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1661565001748" />
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom" timestamp="1661576818074">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
-    <state width="1237" height="136" key="GridCell.Tab.0.center" timestamp="1661576818074">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
-    <state width="1237" height="136" key="GridCell.Tab.0.left" timestamp="1661576818074">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
-    <state width="1237" height="136" key="GridCell.Tab.0.right" timestamp="1661576818074">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1661576818074" />
-    <state x="277" y="101" key="MultipleFileMergeDialog" timestamp="1662946472469">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="277" y="101" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1662946472469" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1662947285427">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1662947285427" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1662946894734">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1662946894734" />
-    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1662370200094">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="438" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1662370200094" />
-    <state x="28" y="1" key="new project wizard" timestamp="1662449976389">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="28" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1662449976389" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -673,5 +621,19 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hhnail$SearchInsert.ic" NAME="SearchInsert Coverage Results" MODIFIED="1641117174600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hhnail.leetcode.plan01.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hhnail$HIntLinkedList.ic" NAME="HIntLinkedList Coverage Results" MODIFIED="1642215163482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hhnail.datastructure.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hhnail$Solution01.ic" NAME="Solution01 Coverage Results" MODIFIED="1656507535445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hhnail.algorithm.leetcode220629.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hhnail$IsValidSudoku.ic" NAME="IsValidSudoku Coverage Results" MODIFIED="1641821435525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hhnail.leetcode.datastructure01.day05.*</FILTER>
+    </SUITE>
   </component>
 </project>

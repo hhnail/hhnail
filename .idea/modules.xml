@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hhnail.iml" filepath="$PROJECT_DIR$/hhnail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hhnail.iml" filepath="$PROJECT_DIR$/../hhnail.iml" />
       <module fileurl="file://$PROJECT_DIR$/hhnail-practice/hhnail-practice.iml" filepath="$PROJECT_DIR$/hhnail-practice/hhnail-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/hhnail-restful/mptest.iml" filepath="$PROJECT_DIR$/hhnail-restful/mptest.iml" />
     </modules>
