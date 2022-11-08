@@ -30,6 +30,12 @@ public class CollectionTest {
         }
     }
 
+    private List<UserInfo> getTestListDataAndPrint() {
+        List<UserInfo> list = getTestListData();
+        list.forEach(i-> System.out.println(i));
+        return list;
+    }
+
 
     private List<UserInfo> getTestListData() {
         List<UserInfo> list = new ArrayList<>();
@@ -258,6 +264,14 @@ public class CollectionTest {
         list.stream()
                 .min(Comparator.comparing(UserInfo::getAge))
                 .ifPresent(item -> System.out.println(item));
+    }
+
+
+    @Test
+    public void count() {
+        long count = getTestListDataAndPrint().stream().filter(i -> i.getAge() > 20).count();
+        System.out.println(count);
+
     }
 
 
