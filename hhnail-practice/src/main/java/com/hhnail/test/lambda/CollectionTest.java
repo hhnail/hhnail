@@ -6,6 +6,7 @@ import lombok.ToString;
 import org.junit.Test;
 import org.junit.experimental.theories.suppliers.TestedOn;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -181,7 +182,7 @@ public class CollectionTest {
 
 
     @Test
-    public void upperCase() {
+    public void map() {
         List<String> list = Arrays.asList("a", "const", "param");
         List<Object> collect = list.stream().map(String::toUpperCase).collect(Collectors.toList());
         collect.forEach(System.out::println);
@@ -223,6 +224,40 @@ public class CollectionTest {
                         a.getNoseCount() + b.getNoseCount()
                 ));
         System.out.println(reduce1);
+    }
+
+
+    // 打印日志可以用
+    @Test
+    public void peek() {
+        List<String> collect = Stream.of("error code:400", "error msg code illegal", "user password : 123445")
+                .filter(item -> item.contains("error"))
+                .peek(
+                        item -> System.out.println(
+                                new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + " " + item
+                        )
+                )
+                .collect(Collectors.toList());
+
+
+    }
+
+
+    @Test
+    public void max() {
+        List<UserInfo> list = getTestListData();
+
+        list.forEach(item->System.out.println(item));
+
+        System.out.println("");
+
+        list.stream()
+                .max(Comparator.comparing(UserInfo::getAge))
+                .ifPresent(item -> System.out.println(item));
+
+        list.stream()
+                .min(Comparator.comparing(UserInfo::getAge))
+                .ifPresent(item -> System.out.println(item));
     }
 
 
