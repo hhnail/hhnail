@@ -6,10 +6,7 @@ import lombok.ToString;
 import org.junit.Test;
 import org.junit.experimental.theories.suppliers.TestedOn;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Data
@@ -32,6 +29,8 @@ public class CollectionTest {
         list.add(new UserInfo("1", "张三", 29, "杭州"));
         list.add(new UserInfo("2", "李四", 17, "深圳"));
         list.add(new UserInfo("2", "王五", 30, "杭州"));
+        list.add(new UserInfo("2", "王五", 30, "杭州"));
+        list.add(list.get(0));
         return list;
     }
 
@@ -57,7 +56,7 @@ public class CollectionTest {
                         Collectors.toMap(
                                 // 取key逻辑：取id为key
                                 UserInfo::getId,
-                                // 取value逻辑：取userInfo为value
+                                // 取value逻辑：取userInfo为value。可以省略return和{}
                                 userInfo -> {
                                     return userInfo;
                                 },
@@ -103,8 +102,10 @@ public class CollectionTest {
     @Test
     public void groupingBy() {
         List<UserInfo> list = getTestListData();
+
         Map<String, List<UserInfo>> collect = list.stream().collect(
                 Collectors.groupingBy(
+                        // 按照什么分组:按照城市分组
                         userInfo -> userInfo.getCity()
                 )
         );
@@ -113,6 +114,55 @@ public class CollectionTest {
             System.out.println("k:" + k + " v:" + v);
         });
 
+
+    }
+
+
+    @Test
+    public void order() {
+        List<UserInfo> list = getTestListData();
+
+        List<UserInfo> ascOrderList = list.stream().sorted(Comparator.comparing(UserInfo::getAge)).collect(Collectors.toList());
+        List<UserInfo> descOrderList = list.stream().sorted(Comparator.comparing(UserInfo::getAge).reversed()).collect(Collectors.toList());
+
+
+        ascOrderList.forEach(item -> System.out.println(item));
+        descOrderList.forEach(item -> System.out.println(item));
+
+    }
+
+
+    @Test
+    public void distinct() {
+        List<String> list = Arrays.asList("A", "B", "C", "A");
+        List<String> collect = list.stream().distinct().collect(Collectors.toList());
+        collect.forEach(item -> System.out.println(item));
+
+
+        List<UserInfo> list1 = getTestListData();
+        list1.forEach(item-> System.out.println(item));
+
+        System.out.println();
+
+        List<UserInfo> collect1 = list1.stream()
+                // 对象list的distinct根据不是引用.而是对象里的每一个属性一致,才会标识为重复的
+                .distinct()
+                .collect(Collectors.toList());
+        collect1.forEach(item -> System.out.println(item));
+    }
+
+
+    /**
+     * 返回集合的第一个元素
+     */
+    @Test
+    public void findfirst() {
+        List<UserInfo> list = getTestListData();
+        list.stream().findFirst().ifPresent(System.out::println);
+
+        list.stream().findFirst().ifPresent(item->{
+            System.out.println(item);
+        });
 
     }
 
