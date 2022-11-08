@@ -21,6 +21,10 @@ public class CollectionTest {
         private String name;
         private Integer age;
         private String city;
+
+        public Integer growUp(){
+            return this.getAge() + 10;
+        }
     }
 
 
@@ -140,7 +144,7 @@ public class CollectionTest {
 
 
         List<UserInfo> list1 = getTestListData();
-        list1.forEach(item-> System.out.println(item));
+        list1.forEach(item -> System.out.println(item));
 
         System.out.println();
 
@@ -160,14 +164,41 @@ public class CollectionTest {
         List<UserInfo> list = getTestListData();
         list.stream().findFirst().ifPresent(System.out::println);
 
-        list.stream().findFirst().ifPresent(item->{
+        list.stream().findFirst().ifPresent(item -> {
             System.out.println(item);
         });
 
     }
 
 
+    // private class Item{
+    //     public void sout(){
+    //         System.out.println("Item sout...");
+    //     }
+    // }
 
 
+    @Test
+    public void upperCase() {
+        List<String> list = Arrays.asList("a", "const", "param");
+        List<Object> collect = list.stream().map(String::toUpperCase).collect(Collectors.toList());
+        collect.forEach(System.out::println);
+
+
+
+        // 不仅可以uppercase。
+        // 理论上这个东西的作用是可以遍历list里面的item，然后执行item对象上有的方法,并将该方法的返回值封装为list返回
+        List<UserInfo> list2 = getTestListData();
+        List<Integer> collect2 = list2.stream().map(UserInfo::growUp).collect(Collectors.toList());
+        collect2.forEach(System.out::println);
+
+        // map里面调用的方法可以有两种，"xx".toUpperCase这样的，也可以是Integer.parseInt(String str)
+        List<String> list3 = Arrays.asList("1", "2", "3");
+        List<Integer> collect3 = list3.stream().map(Integer::parseInt).collect(Collectors.toList());
+        collect3.forEach(System.out::println);
+
+
+
+    }
 
 }
