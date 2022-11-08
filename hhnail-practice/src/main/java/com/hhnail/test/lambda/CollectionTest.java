@@ -8,6 +8,7 @@ import org.junit.experimental.theories.suppliers.TestedOn;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Data
 @AllArgsConstructor
@@ -21,8 +22,9 @@ public class CollectionTest {
         private String name;
         private Integer age;
         private String city;
+        private Integer noseCount;
 
-        public Integer growUp(){
+        public Integer growUp() {
             return this.getAge() + 10;
         }
     }
@@ -30,10 +32,10 @@ public class CollectionTest {
 
     private List<UserInfo> getTestListData() {
         List<UserInfo> list = new ArrayList<>();
-        list.add(new UserInfo("1", "张三", 29, "杭州"));
-        list.add(new UserInfo("2", "李四", 17, "深圳"));
-        list.add(new UserInfo("2", "王五", 30, "杭州"));
-        list.add(new UserInfo("2", "王五", 30, "杭州"));
+        list.add(new UserInfo("1", "张三", 29, "杭州", 1));
+        list.add(new UserInfo("2", "李四", 17, "深圳", 1));
+        list.add(new UserInfo("2", "王五", 30, "杭州", 1));
+        list.add(new UserInfo("2", "王五", 30, "杭州", 1));
         list.add(list.get(0));
         return list;
     }
@@ -185,20 +187,43 @@ public class CollectionTest {
         collect.forEach(System.out::println);
 
 
-
         // 不仅可以uppercase。
         // 理论上这个东西的作用是可以遍历list里面的item，然后执行item对象上有的方法,并将该方法的返回值封装为list返回
         List<UserInfo> list2 = getTestListData();
         List<Integer> collect2 = list2.stream().map(UserInfo::growUp).collect(Collectors.toList());
         collect2.forEach(System.out::println);
 
-        // map里面调用的方法可以有两种，"xx".toUpperCase这样的，也可以是Integer.parseInt(String str)
+        // map里面调用的方法可以有两种，"xx".toUpperCase这样的，也可以是Integer.parseInt(String xx)
         List<String> list3 = Arrays.asList("1", "2", "3");
         List<Integer> collect3 = list3.stream().map(Integer::parseInt).collect(Collectors.toList());
         collect3.forEach(System.out::println);
 
-
-
     }
+
+
+    @Test
+    public void reduce() {
+        Stream<Integer> integerStream = Stream.of(1, 2, 3, 4);
+        Integer reduce = integerStream.reduce(0, (a, b) -> a + b);
+        System.out.println(reduce);
+
+
+        List<UserInfo> list = getTestListData();
+        Stream<UserInfo> userInfoStream = Stream.of(
+                new UserInfo("1", "张三", 29, "杭州", 1),
+                new UserInfo("2", "李四", 29, "杭州", 1),
+                new UserInfo("1", "王五", 29, "杭州", 1)
+        );
+        UserInfo reduce1 = userInfoStream.reduce(new UserInfo("sum", "sum", 0, "sum", 0),
+                (a, b) -> new UserInfo(
+                        a.getId() + "," + b.getId(),
+                        a.getName() + "," + b.getName(),
+                        a.getAge() + b.getAge(),
+                        a.getCity() + "," + b.getCity(),
+                        a.getNoseCount() + b.getNoseCount()
+                ));
+        System.out.println(reduce1);
+    }
+
 
 }
