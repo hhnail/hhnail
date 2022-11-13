@@ -21,4 +21,25 @@ public class StringTest {
         System.out.println("我是张三，我的爱好是" + String.join(",", habits));
     }
 
+
+    @Test
+    public void test02() {
+        Object a  = null;
+        String str = (String)a;
+        System.out.println(str);
+
+    }
+
+
+    @Test
+    public void test03() {
+        String str = "";
+        String str2 = " ";
+        System.out.println(str.isEmpty());
+        System.out.println(str2.isEmpty());
+
+    }
+
+
+
 }

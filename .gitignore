@@ -3,4 +3,5 @@
 /hhnail-practice/target/
 
 *.class
+.idea/workspace.xml
 ./.idea
