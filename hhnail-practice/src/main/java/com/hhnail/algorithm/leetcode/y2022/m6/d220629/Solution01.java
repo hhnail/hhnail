@@ -1,6 +1,4 @@
-package com.hhnail.algorithm.leetcode.d220629;
-
-import com.hhnail.util.ByteUtil;
+package com.hhnail.algorithm.leetcode.y2022.m6.d220629;
 
 /**
  * 2220. 转换数字的最少位翻转次数

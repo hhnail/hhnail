@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.leetcode.d220724;
+package com.hhnail.algorithm.leetcode.y2022.m7.d220724;
 
 import java.util.Arrays;
 

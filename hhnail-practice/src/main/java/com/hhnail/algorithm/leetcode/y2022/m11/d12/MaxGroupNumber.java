@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.leetcode.d221112;
+package com.hhnail.algorithm.leetcode.y2022.m11.d12;
 
 /**
  * https://leetcode.cn/problems/Up5XYM/

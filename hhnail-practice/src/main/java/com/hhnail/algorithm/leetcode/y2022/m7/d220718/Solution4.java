@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.leetcode.d220718;
+package com.hhnail.algorithm.leetcode.y2022.m7.d220718;
 
 /*
 1184. 公交站间的距离

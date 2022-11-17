@@ -1,11 +1,9 @@
-package com.hhnail.algorithm.leetcode.d220718;
+package com.hhnail.algorithm.leetcode.y2022.m7.d220718;
 
 import com.hhnail.util.HArrayUtil;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 /*
 2295. 替换数组中的元素

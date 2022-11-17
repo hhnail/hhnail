@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.leetcode.d220827;
+package com.hhnail.algorithm.leetcode.y2022.m8.d220827;
 
 import java.util.List;
 

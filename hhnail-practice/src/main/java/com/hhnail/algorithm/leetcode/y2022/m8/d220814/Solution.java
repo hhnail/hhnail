@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.leetcode.d220814;
+package com.hhnail.algorithm.leetcode.y2022.m8.d220814;
 
 import com.hhnail.algorithm.leetcode.bean.ListNode;
 

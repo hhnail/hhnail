@@ -1,9 +1,8 @@
-package com.hhnail.algorithm.leetcode.d220723;
+package com.hhnail.algorithm.leetcode.y2022.m7.d220723;
 
 import com.hhnail.util.HArrayUtil;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
 
 /**
  * @Tags:动态规划 978. 最长湍流子数组

@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.leetcode.d220723;
+package com.hhnail.algorithm.leetcode.y2022.m7.d220723;
 
 /**
  * @Tags:动态规划、递归
