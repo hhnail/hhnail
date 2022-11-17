@@ -19,15 +19,25 @@ public class MapTest {
     }
 
     @Test
-    public void test01(){
-        Map<String,Object> map = new HashMap<>();
-        map.put("b",false);
-        if(!(boolean)map.get("b")){
-            System.out.println((boolean)map.get("b"));
+    public void test01() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("b", false);
+        if (!(boolean) map.get("b")) {
+            System.out.println((boolean) map.get("b"));
         }
-        map.put("b",true);
-        if((boolean)map.get("b")){
-            System.out.println((boolean)map.get("b"));
+        map.put("b", true);
+        if ((boolean) map.get("b")) {
+            System.out.println((boolean) map.get("b"));
         }
+    }
+
+    @Test
+    public void test02() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("name", "张三");
+
+        map.remove("age");
+        map.forEach((key, value) -> System.out.println(key + ":" + value));
+
     }
 }
