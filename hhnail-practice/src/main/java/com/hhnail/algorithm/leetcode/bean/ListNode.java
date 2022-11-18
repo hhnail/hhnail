@@ -7,7 +7,7 @@ public class ListNode {
     public int val;
     public ListNode next;
 
-    ListNode() {
+    public ListNode() {
     }
 
     public ListNode(int val) {
@@ -33,5 +33,14 @@ public class ListNode {
         }
         sb.append("]");
         return sb.toString();
+    }
+
+    public void add2Tail(ListNode head,int val){
+        ListNode elem = new ListNode(val);
+        ListNode p = head;
+        while (p.next != null){
+            p = p.next;
+        }
+        p.next = elem;
     }
 }
