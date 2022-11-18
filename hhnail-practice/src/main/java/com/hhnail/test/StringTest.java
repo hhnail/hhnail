@@ -41,5 +41,13 @@ public class StringTest {
     }
 
 
+    @Test
+    public void test04() {
+        String str= "hello world";
+        char c = str.charAt(3);
+        System.out.println(c+"");
+
+    }
+
 
 }
