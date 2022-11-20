@@ -2,6 +2,7 @@ package com.hhnail.spring.aop;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 /**
@@ -13,6 +14,7 @@ import lombok.ToString;
 @Data
 @ToString
 @AllArgsConstructor
+@NoArgsConstructor
 public class UpdateOrderReqVO {
 
     private Long orderId;

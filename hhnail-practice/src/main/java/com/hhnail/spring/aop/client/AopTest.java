@@ -1,4 +1,8 @@
-package com.hhnail.spring.aop;
+package com.hhnail.spring.aop.client;
+
+import com.hhnail.spring.aop.OrderService;
+import com.hhnail.spring.aop.SaveOrderReqVO;
+import com.hhnail.spring.aop.UpdateOrderReqVO;
 
 /**
  * @author r221587
@@ -13,6 +17,8 @@ public class AopTest {
         OrderService orderService = new OrderService();
         orderService.saveOrder(new SaveOrderReqVO(1L));
         orderService.updateOrder(new UpdateOrderReqVO(2L));
+
+
 
     }
 
