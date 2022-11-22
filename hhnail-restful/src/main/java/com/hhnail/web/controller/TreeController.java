@@ -61,4 +61,9 @@ public class TreeController {
 		return columns;
 	}
 
+	// @PostMapping("tree")
+	// public List<HColumn> tree(@RequestParam(value = "tableName") String tableName) {
+	//
+	// }
+
 }

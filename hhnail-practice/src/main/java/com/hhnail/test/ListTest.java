@@ -32,5 +32,11 @@ public class ListTest {
 
     }
 
+    @Test
+    public void testEmpty(){
+        List<String> employeeNoList = new ArrayList<>();
+        employeeNoList.forEach(item-> System.out.println(item));
+    }
+
 
 }
