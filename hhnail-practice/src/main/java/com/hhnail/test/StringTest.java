@@ -3,7 +3,9 @@ package com.hhnail.test;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class StringTest {
 
@@ -24,8 +26,8 @@ public class StringTest {
 
     @Test
     public void test02() {
-        Object a  = null;
-        String str = (String)a;
+        Object a = null;
+        String str = (String) a;
         System.out.println(str);
 
     }
@@ -43,9 +45,23 @@ public class StringTest {
 
     @Test
     public void test04() {
-        String str= "hello world";
+        String str = "hello world";
         char c = str.charAt(3);
-        System.out.println(c+"");
+        System.out.println(c + "");
+
+    }
+
+
+    @Test
+    public void test05() {
+        String str1 = "Y";
+        Object str2 = "Y";
+        System.out.println(str1.equals(str2));
+
+        Map<String,Object> map = new HashMap<>();
+        map.put("1","Y");
+        map.put("0","N");
+        System.out.println(map.containsValue("Y"));
 
     }
 
