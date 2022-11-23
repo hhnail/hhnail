@@ -96,36 +96,49 @@ import java.util.stream.IntStream;
 public class Solution {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().myAtoi("42 with words"));
-        System.out.println(new Solution().myAtoi("-42 with words"));
-        System.out.println(new Solution().myAtoi("4193 with words"));
-        System.out.println(new Solution().myAtoi(""));
+        // System.out.println(new Solution().myAtoi("42 with words"));
+        // System.out.println(new Solution().myAtoi("-42 with words"));
+        // System.out.println(new Solution().myAtoi("4193 with words"));
+        // System.out.println(new Solution().myAtoi(""));
         // System.out.println(new Solution().myAtoi("words and 987"));
+        // System.out.println(new Solution().myAtoi("   -42"));
+        // System.out.println(new Solution().myAtoi("3.14159"));
+        System.out.println(new Solution().myAtoi("-+12"));
     }
 
     public int myAtoi(String s) {
         s = s.trim();
-        if ("".equals(s)) {
-            return 0;
-        }
+
         int result;
         StringBuffer sb = new StringBuffer();
         Character[] intChars = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
+        if ("".equals(s)) {
+            return 0;
+        }
+        char firstChar = s.charAt(0);
+        if ('-' != firstChar && !Arrays.stream(intChars).anyMatch(item -> item == firstChar)) {
+            return 0;
+        }
         // 1、处理为整数
+        boolean begin = false;
         char[] chars = s.toCharArray();
-        boolean negative = s.charAt(0) == '-';
-        int begin = negative ? 1 : 0;
-        for (int i = begin; i < chars.length; i++) {
+        for (int i = 0; i < chars.length; i++) {
             char c = chars[i];
             if (Arrays.stream(intChars).anyMatch(item -> item == c)) {
                 sb.append(c);
+                begin = true;
                 continue;
             }
-            break;
+            if (begin) {
+                break;
+            }
         }
+        if (s.indexOf(sb.charAt(0)) > 0 && s.charAt(s.indexOf(sb.charAt(0)) - 1) == '-') {
+            sb = new StringBuffer("-").append(sb);
+        }
+
         // 2、边界判断处理
         BigDecimal bigDecimal = new BigDecimal(sb.toString());
-        bigDecimal = negative ? bigDecimal.negate() : bigDecimal;
         BigDecimal MAX_VALUE = new BigDecimal(Integer.MAX_VALUE);
         BigDecimal MIN_VALUE = new BigDecimal(Integer.MIN_VALUE);
         if (bigDecimal.compareTo(MAX_VALUE) > 0) {
