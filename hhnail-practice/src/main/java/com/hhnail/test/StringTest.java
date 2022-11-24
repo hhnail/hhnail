@@ -2,10 +2,7 @@ package com.hhnail.test;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class StringTest {
 
@@ -58,11 +55,17 @@ public class StringTest {
         Object str2 = "Y";
         System.out.println(str1.equals(str2));
 
-        Map<String,Object> map = new HashMap<>();
-        map.put("1","Y");
-        map.put("0","N");
+        Map<String, Object> map = new HashMap<>();
+        map.put("1", "Y");
+        map.put("0", "N");
         System.out.println(map.containsValue("Y"));
 
+    }
+
+
+    @Test
+    public void test06() {
+        System.out.println(UUID.randomUUID().toString().length());
     }
 
 
