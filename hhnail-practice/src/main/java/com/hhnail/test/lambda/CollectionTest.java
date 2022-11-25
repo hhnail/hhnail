@@ -73,7 +73,7 @@ public class CollectionTest {
                                 userInfo -> {
                                     return userInfo;
                                 },
-                                // 重复key的处理逻辑：k1如果和k2重复了，取key为k2（k1）的。也就是取最后一个（第一个）key的value
+                                // 重复key的处理逻辑：k1如果和k2重复了，取key为k2（或k1）的。也就是取最后一个（或第一个）key的value
                                 (k1, k2) -> k2)
                 );
 

@@ -33,10 +33,26 @@ public class ListTest {
     }
 
     @Test
-    public void testEmpty(){
+    public void testEmpty() {
         List<String> employeeNoList = new ArrayList<>();
-        employeeNoList.forEach(item-> System.out.println(item));
+        employeeNoList.forEach(item -> System.out.println(item));
     }
 
+
+    @Test
+    public void testEqual() {
+        List<Integer> list1 = new ArrayList<>();
+        list1.add(-1);
+        list1.add(0);
+        list1.add(1);
+
+        List<Integer> list2 = new ArrayList<>();
+        list2.add(-1);
+        list2.add(0);
+        list2.add(1);
+
+        System.out.println(list1.equals(list2));
+
+    }
 
 }

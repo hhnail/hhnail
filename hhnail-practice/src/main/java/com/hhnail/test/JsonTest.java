@@ -28,4 +28,19 @@ public class JsonTest {
         System.out.println(JSONObject.toJSONString(map.toString()));
     }
 
+    @Test
+    public void test2(){
+        System.out.println(JSONObject.toJSONString(null));
+    }
+
+    @Test
+    public void test3() {
+        try {
+            int i = 1 / 0;
+        } catch (Exception e) {
+            System.out.println(JSONObject.toJSONString(e.getMessage()));
+        }
+    }
+
+
 }
