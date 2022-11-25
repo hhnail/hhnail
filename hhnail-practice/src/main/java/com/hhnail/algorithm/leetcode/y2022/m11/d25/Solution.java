@@ -104,6 +104,9 @@ public class Solution {
             int v1 = source.get(l);
             int v2 = source.get(m);
             int v3 = source.get(r);
+            if(v2 == -29){
+                System.out.println("");
+            }
             int threeSum = v1 + v2 + v3;
             if (threeSum == 0) {
                 List<Integer> resultItem = new ArrayList<>();
