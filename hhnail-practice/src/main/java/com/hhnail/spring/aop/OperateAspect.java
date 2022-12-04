@@ -42,7 +42,7 @@ public class OperateAspect {
         // 线程池异步记录日志，避免记录日志阻断业务
         threadPoolExecutor.execute(() -> {
             try {
-                // 拿到切入点的方法签名（？？方法签名是啥？？不太懂）
+                // 拿到切入点的方法签名？？（？？方法签名是啥？？不太懂）
                 MethodSignature methodSignature = (MethodSignature) proceedingJoinPoint.getSignature();
                 // 拿到加了【切入点定义的注解】
                 RecordOperate annotation = methodSignature.getMethod().getAnnotation(RecordOperate.class);
