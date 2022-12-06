@@ -9,7 +9,7 @@ import java.util.Date;
 public class DateTest {
 
     @Test
-    public void test01(){
+    public void test01() {
         String mTime = new SimpleDateFormat("HHmmss").format(new Date());
         System.out.println(mTime);
 
@@ -18,7 +18,7 @@ public class DateTest {
     }
 
     @Test
-    public void test02(){
+    public void test02() {
         Date lastDay = getLastDayOfMonth(new Date());
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
         System.out.println("last_Day_Of_Month = " + df.format(lastDay));
@@ -26,10 +26,11 @@ public class DateTest {
 
     /**
      * 获取某date的月份的最后一天
+     *
      * @param date
      * @return
      */
-    public static Date getLastDayOfMonth(Date date){
+    public static Date getLastDayOfMonth(Date date) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
         int lastDay = calendar.getActualMaximum(Calendar.DATE);
@@ -38,8 +39,20 @@ public class DateTest {
     }
 
     @Test
-    public void test03(){
+    public void test03() {
+
+
         System.out.println(Calendar.getInstance().getActualMaximum(Calendar.DATE));
+
+    }
+
+    @Test
+    public void test04() {
+
+        System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+                .format(new Date())
+        );
+
     }
 
 }
