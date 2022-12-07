@@ -69,4 +69,17 @@ public class StringTest {
     }
 
 
+    @Test
+    public void test07() {
+        // String name = "张三";
+        // String name = "王八蛋";
+        // String name = "欧阳铁柱";
+        String name = "";
+        // String name = "张";
+        System.out.println(name.substring(0, 1));
+        System.out.println(name.substring(1));
+
+    }
+
+
 }
