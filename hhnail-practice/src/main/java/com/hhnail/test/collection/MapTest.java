@@ -1,4 +1,4 @@
-package com.hhnail.test;
+package com.hhnail.test.collection;
 
 import org.junit.Test;
 
@@ -40,4 +40,17 @@ public class MapTest {
         map.forEach((key, value) -> System.out.println(key + ":" + value));
 
     }
+
+    @Test
+    public void test03() {
+        Map<String, Object> map = new HashMap<>();
+
+        map.put(null, "zero");
+        map.put("0", "zero");
+        map.put("1", "one");
+        System.out.println(map.get(null));
+
+
+    }
+
 }
