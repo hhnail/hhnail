@@ -1,4 +1,4 @@
-package com.hhnail.test;
+package com.hhnail.test.base;
 
 import lombok.Data;
 

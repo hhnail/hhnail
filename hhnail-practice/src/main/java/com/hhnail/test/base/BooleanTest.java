@@ -1,4 +1,4 @@
-package com.hhnail.test;
+package com.hhnail.test.base;
 
 public class BooleanTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.hhnail.test;
+package com.hhnail.test.base;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.*;
