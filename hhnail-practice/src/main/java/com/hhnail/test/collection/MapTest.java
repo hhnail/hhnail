@@ -7,17 +7,12 @@ import java.util.Map;
 
 public class MapTest {
     public static void main(String[] args) {
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-        map.put(1, 3);
-        map.put(12, 3);
-        map.put(12, 3);
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
 
-            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
-
-        }
     }
 
+    /**
+     * value为Object的boolean
+     */
     @Test
     public void test01() {
         Map<String, Object> map = new HashMap<>();
@@ -31,6 +26,9 @@ public class MapTest {
         }
     }
 
+    /**
+     * remove不存在的key
+     */
     @Test
     public void test02() {
         Map<String, Object> map = new HashMap<>();
@@ -51,6 +49,20 @@ public class MapTest {
         System.out.println(map.get(null));
 
 
+    }
+
+    /**
+     * 遍历map
+     */
+    @Test
+    public void test04() {
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        map.put(1, 3);
+        map.put(12, 3);
+        map.put(12, 3);
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+        }
     }
 
 }
