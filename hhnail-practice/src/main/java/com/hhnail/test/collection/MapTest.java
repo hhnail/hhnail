@@ -65,4 +65,18 @@ public class MapTest {
         }
     }
 
+
+    /**
+     * 创建并初始化Map
+     */
+    @Test
+    public void test05() {
+        Map<String, String> map = new HashMap<String, String>() {{
+            put("id", "2022121701");
+            put("name", "张三");
+            put("age", "19");
+        }};
+        map.forEach((key, value) -> System.out.println(key + ":" + value));
+    }
+
 }
