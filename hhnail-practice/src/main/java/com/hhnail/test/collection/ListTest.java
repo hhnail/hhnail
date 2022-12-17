@@ -2,10 +2,7 @@ package com.hhnail.test.collection;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ListTest {
@@ -54,5 +51,29 @@ public class ListTest {
         System.out.println(list1.equals(list2));
 
     }
+
+    @Test
+    public void testRemoveLast() {
+        LinkedList<String> linkedList = new LinkedList<String>() {{
+            add("1");
+            add("3");
+            add("5");
+        }};
+        System.out.println(linkedList);
+        System.out.println(linkedList.removeFirst());
+        System.out.println(linkedList);
+        linkedList.removeLast();
+        System.out.println(linkedList);
+
+
+        ArrayList<String> arrayList = new ArrayList<String>() {{
+            add("1");
+            add("3");
+            add("5");
+        }};
+        // arrayList.removeLast();
+
+    }
+
 
 }
