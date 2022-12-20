@@ -36,6 +36,7 @@ public class StringTest {
         String str2 = " ";
         System.out.println(str.isEmpty());
         System.out.println(str2.isEmpty());
+        System.out.println(str2.trim().isEmpty());
 
     }
 
