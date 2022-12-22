@@ -43,4 +43,15 @@ public class JsonTest {
     }
 
 
+    @Test
+    public void test4() {
+        Map<String,Object> map = new HashMap<String,Object>(){{
+            put("orderId","123");
+            put("orderNo","123");
+        }};
+        JSONObject json = new JSONObject(map);
+        System.out.println(json);
+    }
+
+
 }
