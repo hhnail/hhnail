@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.leetcode.y2022.m12.d17;
+package com.hhnail.algorithm.leetcode.y2022.m12.d22;
 // 20
 //给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
 //
