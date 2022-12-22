@@ -60,25 +60,46 @@ class Solution {
         put('?', '?');
     }};
 
+    private final Map<Character, Character> matchMap = new HashMap<Character, Character>() {{
+        put('{', '}');
+        put('[', ']');
+        put('(', ')');
+        // put('}', '{');
+        // put(']', '[');
+        // put(')', '(');
+    }};
+
 
     public static void main(String[] args) {
         String str = "{}{}[]";
         str = "[]";
         str = "[}";
-        System.out.println(new Solution().isValid(str));
-        System.out.println(new Solution().isValid2(str));
+        str = "([)]";
+        str = "(){}}{";
+        System.out.println("answer：" + new Solution().isValid(str));
+        System.out.println("my：" + new Solution().isValid2(str));
     }
+
 
     public boolean isValid2(String s) {
         Stack<Character> stack = new Stack<>();
-        for (Character c : s.toCharArray()){
-
+        for (Character c : s.toCharArray()) {
+            if (stack.isEmpty()) {
+                stack.add(c);
+                continue;
+            }
+            Character peek = stack.peek();
+            if (matchMap.containsKey(peek) && matchMap.get(peek).equals(c)) {
+                stack.pop();
+            } else {
+                stack.add(c);
+            }
         }
-        return false;
+        return stack.size() == 0;
     }
 
 
-
+    // leetcode题解
     public boolean isValid(String s) {
         if (s.length() > 0 && !map.containsKey(s.charAt(0))) {
             return false;
