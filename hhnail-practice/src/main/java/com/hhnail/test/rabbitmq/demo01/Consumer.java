@@ -1,8 +1,6 @@
-package com.hhnail.test.rabbitmq.simple;
+package com.hhnail.test.rabbitmq.demo01;
 
 import com.rabbitmq.client.*;
-
-import java.io.IOException;
 
 /**
  * mq

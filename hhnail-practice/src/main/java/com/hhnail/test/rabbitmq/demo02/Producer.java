@@ -1,4 +1,4 @@
-package com.hhnail.test.rabbitmq.work;
+package com.hhnail.test.rabbitmq.demo02;
 
 import com.hhnail.test.rabbitmq.util.RabbitMQUtil;
 import com.rabbitmq.client.Channel;
