@@ -55,4 +55,13 @@ public class DateTest {
 
     }
 
+    @Test
+    public void test05() {
+        System.out.println(new Date().getTime());
+
+        System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+                .format(new Date(1672803869244L))
+        );
+    }
+
 }
