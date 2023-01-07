@@ -2,6 +2,7 @@ package com.hhnail.test.rabbitmq.demo04;
 
 import com.hhnail.test.rabbitmq.util.RabbitMQUtil;
 import com.rabbitmq.client.Channel;
+import com.rabbitmq.client.MessageProperties;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -32,8 +33,12 @@ public class Producer {
         long start = System.currentTimeMillis();
         for (Integer i = 0; i < MESSAGE_COUNT; i++) {
             String message = "消息" + i;
-            channel.basicPublish("", QUEUE_NAME, null, message.getBytes(StandardCharsets.UTF_8));
             {
+                channel.basicPublish("",
+                        QUEUE_NAME,
+                        MessageProperties.PERSISTENT_TEXT_PLAIN,
+                        message.getBytes(StandardCharsets.UTF_8)
+                );
                 boolean success = channel.waitForConfirms();
                 if (success) {
                     System.out.println("消息发送成功");
