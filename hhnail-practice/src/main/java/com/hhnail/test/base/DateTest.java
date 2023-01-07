@@ -55,4 +55,33 @@ public class DateTest {
 
     }
 
+    @Test
+    public void test05() {
+        System.out.println(new Date().getTime());
+
+        System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+                .format(new Date(1672803869244L))
+        );
+    }
+
+
+    @Test
+    public void test06() throws Exception{
+        // System.out.println(("P1201010067" + new Date().getTime()).length());
+        // System.out.println(("P1201010067-" + new Date().getTime()));
+        // System.out.println(("P1201010067-" + new Date().getTime()));
+        // Thread.sleep(1*1000);
+        // System.out.println(("P1201010067-" + new Date().getTime()));
+        // System.out.println(("P1101010080-1672898630721".length()));
+        //
+        // System.out.println(("P1201010067-" + new Date().getTime()));
+        // System.out.println(("P1201010067-" + new Date().getTime()));
+
+
+        System.out.println(new Date().getTime());
+        System.out.println(new Date("2023-01-04 15:21:00").getTime());
+
+
+    }
+
 }
