@@ -2,8 +2,11 @@ package com.hhnail.test.collection;
 
 import org.junit.Test;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentNavigableMap;
+import java.util.concurrent.ConcurrentSkipListMap;
 
 public class MapTest {
     public static void main(String[] args) {
@@ -77,6 +80,31 @@ public class MapTest {
             put("age", "19");
         }};
         map.forEach((key, value) -> System.out.println(key + ":" + value));
+    }
+
+    /**
+     * ConcurrentSkipListMap
+     */
+    @Test
+    public void test06() {
+        ConcurrentSkipListMap<String, Object> map = new ConcurrentSkipListMap();
+
+        map.put("name", "zhangsan");
+        map.put("age", 19);
+        map.put("join_date", new Date());
+
+        System.out.println(map);
+        System.out.println("======================华丽的分割线======================");
+
+        map.remove("name");
+        System.out.println(map);
+        System.out.println("======================华丽的分割线======================");
+        ConcurrentNavigableMap<String, Object> concurrentNavigableMap = map.headMap("age");
+        System.out.println(map);
+        System.out.println("======================华丽的分割线======================");
+        System.out.println(concurrentNavigableMap);
+
+
     }
 
 }
