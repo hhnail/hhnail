@@ -27,23 +27,34 @@ public class Producer {
                 false, false, false,
                 null
         );
+        // 开启发布确认
+        channel.confirmSelect();
 
-        //线程安全有序的一个map，适用于高并发
+        // 线程安全有序的一个map，支持高并发（多线程）
         ConcurrentSkipListMap<Long, String> outstandingConfirm = new ConcurrentSkipListMap<>();
 
         // 添加确认发布的监听器。
         // 这样发布就不用确认了，监听发布的结果，不同情况做不同处理，起到”异步确认“的效果
         channel.addConfirmListener(
                 (deliveryTag, multiple) -> {
-                    // 成功的处理
-                    // 3.删除掉已经确认的消息。剩下的就是未确认的消息
-                    outstandingConfirm.headMap(deliveryTag);
+                    /**
+                     * 成功的处理
+                     * 2.删除掉已经确认的消息。剩下的就是未确认的消息
+                     */
+                    if (multiple) { // 如果是批量确认
+                        // 保留key小于deliveryTag的。tailMap()是保留key大于deliveryTag的
+                        ConcurrentNavigableMap<Long, String> confirmed = outstandingConfirm.headMap(deliveryTag);
+                        confirmed.clear(); // 执行这个confirmed会清空，outstandingConfirm的元素也才会移除
+                    } else {
+                        outstandingConfirm.remove(deliveryTag);
+                    }
                     System.out.println("确认的消息：" + deliveryTag);
                 },
                 (deliveryTag, multiple) -> {
                     // 失败的处理
-                    // 2.打印一下未确认的消息都有哪些
-                    System.out.println("未确认的消息：" + deliveryTag);
+                    // 3.打印一下未确认的消息都有哪些
+                    String unconfirmedMsg = outstandingConfirm.get(deliveryTag);
+                    System.out.println("未确认的消息：" + unconfirmedMsg);
                 });
 
         long start = System.currentTimeMillis();

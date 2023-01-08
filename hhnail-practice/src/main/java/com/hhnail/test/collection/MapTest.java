@@ -87,22 +87,32 @@ public class MapTest {
      */
     @Test
     public void test06() {
-        ConcurrentSkipListMap<String, Object> map = new ConcurrentSkipListMap();
+        ConcurrentSkipListMap<Long, Object> map = new ConcurrentSkipListMap();
 
-        map.put("name", "zhangsan");
-        map.put("age", 19);
-        map.put("join_date", new Date());
+        map.put(1L, "zhangsan");
+        map.put(2L, 19);
+        map.put(3L, new Date());
+        map.put(4L, new Date());
 
         System.out.println(map);
         System.out.println("======================华丽的分割线======================");
 
-        map.remove("name");
+        // map.remove("name");
+        map.remove(4L);
         System.out.println(map);
         System.out.println("======================华丽的分割线======================");
-        ConcurrentNavigableMap<String, Object> concurrentNavigableMap = map.headMap("age");
-        System.out.println(map);
+        /**
+         * headMap保留key小于key的
+         * tailMap保留key大于key的
+         * ConcurrentSkipListMap相当于一个支持批量操作的map
+         */
+        ConcurrentNavigableMap<Long, Object> concurrentNavigableMap = map.headMap(2L);
+        System.out.println("concurrentNavigableMap:" + concurrentNavigableMap);
+        System.out.println("map:" + map);
         System.out.println("======================华丽的分割线======================");
-        System.out.println(concurrentNavigableMap);
+        concurrentNavigableMap.clear();
+        System.out.println("concurrentNavigableMap:" + concurrentNavigableMap);
+        System.out.println("map:" + map);
 
 
     }
