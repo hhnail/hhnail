@@ -4,23 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todoList</title>
+    <title>右键菜单</title>
 </head>
 <body>
 <style>
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
+    .menu {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: #fff;
+        border: 1px solid #dadce0;
+        /*隐藏*/
+        visibility: hidden;
+    }
+
+    .menu__item:hover {
+        background-color: skyblue;
+    }
+
+    .active {
+        visibility: visible;
     }
 </style>
 
-
-<button>新建任务</button>
+<div id="menu" class="menu">
+    <div class="menu__item" onclick="log('1')">功能1</div>
+    <div class="menu__item" onclick="log('2')">功能2</div>
+    <div class="menu__item" onclick="log('3')">功能3</div>
+    <div class="menu__item">功能4 <span class="icon"> > </span>
+        <div id="submenu" class="submenu">
+            <div class="submenu__item" onclick="log('4-1')">功能4-1</div>
+            <div class="submenu__item" onclick="log('4-2')">功能4-2</div>
+            <div class="submenu__item" onclick="log('4-3')">功能4-3</div>
+            <div class="submenu__item" onclick="log('4-4')">功能4-4</div>
+        </div>
+    </div>
+    <div class="menu__item" onclick="log(5)">功能5</div>
+</div>
 
 
 <script>
-    alert("你好");
+    // alert("你好")
+    window.oncontextmenu = function (e) {
+        // 取消默认的浏览器自带右键
+        // alert("右键失效")
+        e.preventDefault();
+        const menu = document.getElementById('menu');
+        // 根据事件对象中鼠标点击的位置，进行定位
+        menu.style.left = e.clientX + 'px';
+        menu.style.top = e.clientY + 'px';
+        menu.classList.add('active');
+    }
+
+
+    // 关闭右键菜单
+    window.addEventListener('click', function () {
+        const menu = document.getElementById('menu');
+        menu.classList.remove('active');
+    })
 </script>
 </body>
 
