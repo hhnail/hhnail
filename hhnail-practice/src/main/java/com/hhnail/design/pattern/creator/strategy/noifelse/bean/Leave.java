@@ -8,7 +8,7 @@ import lombok.ToString;
 /**
  * @author Hhnail
  * @version 1.0
- * @description: TODO
+ * @description: 请假实体类
  * @date 2023/1/21 10:40
  */
 @Data

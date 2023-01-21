@@ -9,7 +9,7 @@ import org.junit.Test;
 /**
  * @author Hhnail
  * @version 1.0
- * @description: TODO
+ * @description: 员工实体类
  * @date 2023/1/21 10:40
  */
 
@@ -19,8 +19,10 @@ import org.junit.Test;
 @NoArgsConstructor
 public class Employee {
 
+    // 编号
     private Long id;
     private String name;
+    // 职位级别
     private Integer level;
 
 }
