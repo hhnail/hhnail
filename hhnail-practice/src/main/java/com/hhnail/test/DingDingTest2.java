@@ -20,7 +20,7 @@ import java.util.List;
  * @date 2020/11/26
  */
 @Slf4j
-public class DingDingTest {
+public class DingDingTest2 {
 
     //文本消息
     private static final String TEXT = "text";
@@ -94,25 +94,3 @@ public class DingDingTest {
 
 }
 
-
-/**
- * @author zxq
- * @description 发送钉钉消息 入参
- * @date 2020/11/13
- */
-@Data
-class SendMessageIn {
-
-    //消息类型
-    private String msgType;
-    //webhook
-    private String webhook;
-    //密钥
-    private String secret;
-    //文本
-    private String text;
-    //指定对象
-    private List<String> mobileList;
-    //是否推送所有人
-    private boolean isAtAll;
-}
