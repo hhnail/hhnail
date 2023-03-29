@@ -8,22 +8,23 @@ public class TestJoin implements Runnable {
     public static void main(String[] args) throws InterruptedException {
 
         TestJoin target = new TestJoin();
-        Thread thread = new Thread(target,"VIP");
+        Thread thread = new Thread(target, "common user");
 
         thread.start();
 
-        for (int i = 0; i < 500; i++) {
-            if (i == 200) {
+        for (int i = 0; i < 50; i++) {
+            if (i == 25) {
                 thread.join();
             }
-            System.out.println(Thread.currentThread().getName() + (i + 1) + "正在排队。。。");
+            System.out.println(Thread.currentThread().getName() + (i + 1) + " vip来咯，插队，，，");
         }
     }
 
     @Override
     public void run() {
         for (int i = 0; i < 400; i++) {
-            System.out.println(Thread.currentThread().getName() + (i + 1) + " vip来咯，插队，，，");
+            System.out.println(Thread.currentThread().getName() + (i + 1) + "正在排队。。。");
+
         }
     }
 }
