@@ -3,8 +3,11 @@ package com.hhnail.test.base;
 import com.alibaba.fastjson.JSONObject;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @author r221587
@@ -30,5 +33,22 @@ public class MapTest {
 
         System.out.println("log:" + map);
         System.out.println("json log:" + JSONObject.toJSONString(map));
+    }
+
+
+    @Test
+    public void distinct() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("k1", "v1");
+        map.put("k2", "v2");
+        map.put("k3", "v3");
+
+        List<Map<String, Object>> list = new ArrayList<>();
+        list.add(map);
+        list.add(map);
+        list.add(map);
+
+        List<Map<String, Object>> newList = list.stream().distinct().collect(Collectors.toList());
+        System.out.println(newList);
     }
 }
