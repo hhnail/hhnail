@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.zuo20220123.p6;
+package com.hhnail.algorithm.zuo.zuo20220123.p6;
 
 /**
  * 二叉树节点

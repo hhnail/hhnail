@@ -1,4 +1,4 @@
-package com.hhnail.algorithm.zuo20220123.p2;
+package com.hhnail.algorithm.zuo.zuo20220123.p2;
 
 import java.util.LinkedList;
 import java.util.List;
