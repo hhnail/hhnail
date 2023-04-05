@@ -25,14 +25,18 @@ public class LocalMin {
      * @return
      */
     private static int getLocalMin(int[] array) {
+        int length = array.length;
+        if (length == 1) {
+            return 0;
+        }
         if (array[0] < array[1]) {
             return array[0];
         }
-        if (array[array.length - 1] < array[array.length - 2]) {
-            return array[array.length - 1];
+        if (array[length - 1] < array[length - 2]) {
+            return array[length - 1];
         }
         int l = 0;
-        int r = array.length - 1;
+        int r = length - 1;
         int localMinIndex = -1;
         while (l <= r) {
             int mid = (l + r) / 2;
@@ -59,8 +63,9 @@ public class LocalMin {
      * @return
      */
     private static int[] getArray() {
-        return new int[]{9, 1, 3, 1, 45, 23, 12, 7, 5, 6, 88, 99};
+        // return new int[]{9, 1, 3, 1, 45, 23, 12, 7, 5, 6, 88, 99};
         // return new int[]{9, 1, 3, 8, 10, 11, 12, 13, 17, 19, 21, 99};
+        return new int[]{33};
 
     }
 }
