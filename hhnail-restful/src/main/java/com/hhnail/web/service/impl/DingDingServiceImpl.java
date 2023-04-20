@@ -39,7 +39,7 @@ public class DingDingServiceImpl implements DingDingService {
     @Override
     public String getDingDingApiToken() {
 
-        // 如果命中缓存，直接取缓存即可
+        // 如果命中缓存，直接取缓存即可。频繁请求token会被钉钉限制
         Object token = redisTemplate.opsForValue().get(DING_DING_API_TOKEN_REDIS_KEY);
         if (token != null) {
             return token.toString();
