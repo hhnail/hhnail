@@ -1,6 +1,6 @@
 package com.hhnail.web.service.impl;
 
-import com.hhnail.util.HTreeUtil;
+import com.hhnail.web.util.HTreeUtil;
 import com.hhnail.web.bean.HColumn;
 import com.hhnail.web.bean.HTable;
 import com.hhnail.web.bean.TreeNode;

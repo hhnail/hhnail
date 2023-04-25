@@ -1,4 +1,4 @@
-package com.hhnail.util;
+package com.hhnail.web.util;
 
 import com.hhnail.web.bean.HTreeNode;
 import com.hhnail.web.bean.TreeNode;

@@ -1,4 +1,4 @@
-package com.hhnail.schedule;
+package com.hhnail.web.schedule;
 
 import com.xxl.job.core.biz.model.ReturnT;
 import com.xxl.job.core.handler.IJobHandler;
