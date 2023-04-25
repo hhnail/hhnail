@@ -3,10 +3,10 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/hhnail
     username: root
-    password: 123456
+    password: root
 
 server:
-  port: 8080 # web服务端口号
+  port: 18080 # web服务端口号
   servlet:
     multipart:
       enabled: true # 启用文件上传

@@ -11,4 +11,6 @@
 		<appender-ref ref="STDOUT" />
 	</root>
 
+	<property name="log.path" value="/data/applogs/xxl-job/xxl-job-admin.log"/>
+
 </configuration>
