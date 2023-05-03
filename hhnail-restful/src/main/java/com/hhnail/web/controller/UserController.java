@@ -25,7 +25,7 @@ public class UserController {
 
     @ApiOperation("查询用户")
     @PostMapping("/queryUser")
-    @XxlJob("queryUser")
+    @XxlJob("run")
     public ReturnT<String> queryUser(String param) {
         List<User> users = userService.queryUser();
         System.out.println("users=" + users.toString());
