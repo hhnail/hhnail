@@ -25,6 +25,11 @@ public class TestController {
     @Autowired
     private RedisTemplate redisTemplate;
 
+    /**
+     * 加锁
+     * @param requestId
+     * @return
+     */
     public boolean acquireDistributedLock(String requestId) {
         Boolean success = redisTemplate.opsForValue().setIfAbsent(
                 LOCK_KEY, requestId, LOCK_EXPIRE_TIME, TimeUnit.MILLISECONDS
@@ -33,6 +38,11 @@ public class TestController {
 
     }
 
+    /**
+     * 释放锁
+     * @param requestId
+     * @return
+     */
     public boolean releaseDistributedLock(String requestId) {
         Object lockValue = redisTemplate.opsForValue().get(LOCK_KEY);
         if (requestId.equals(lockValue)) {
