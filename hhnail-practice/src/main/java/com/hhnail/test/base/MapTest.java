@@ -1,13 +1,12 @@
 package com.hhnail.test.base;
 
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author r221587
@@ -50,5 +49,49 @@ public class MapTest {
 
         List<Map<String, Object>> newList = list.stream().distinct().collect(Collectors.toList());
         System.out.println(newList);
+    }
+
+
+    @Test
+    public void test() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("k1", "v1");
+        map.put("k2", "v2");
+        map.put("k3", "v3");
+
+        Map<String, Object> map2 = new HashMap<>();
+        map2.put("k1", "v2");
+        map2.put("k2", "v3");
+        map2.put("k3", "v4");
+        map2.put("k4", "v5");
+        map2.put("k5", "v6");
+
+        List<Map<String, Object>> list = new ArrayList<>();
+        list.add(map);
+        list.add(map);
+        list.add(map2);
+        list.add(map2);
+
+        // 将list分组。分组过后是个map，key是按照什么分组，value是对应的组（List集合）
+        Map<String, List<Map<String, Object>>> group = list.stream()
+                .collect(
+                        Collectors.groupingBy(
+                                x -> x.get("k1").toString()
+                        )
+                );
+        // map的entry set。可以拿来遍历
+        Set<Map.Entry<String, List<Map<String, Object>>>> entries = group.entrySet();
+        // 将entry set拿来遍历。Java8的流可以遍历entry set，先转为流然后map即可
+        Stream<Map<String, Object>> mapStream = entries.stream().map(x2 -> {
+            Map<String, Object> temp = new HashMap<>();
+            temp.put("groupKey", x2.getKey());
+            temp.put("list", x2.getValue());
+            return temp;
+        });
+
+        // 转化为List
+        List<Map<String, Object>> newList = mapStream.collect(Collectors.toList());
+
+        System.out.println(JSONObject.toJSONString(newList, SerializerFeature.WriteMapNullValue));
     }
 }
