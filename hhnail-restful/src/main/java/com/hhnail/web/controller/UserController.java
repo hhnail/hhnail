@@ -17,29 +17,16 @@ import java.util.List;
 // @Api(tags = "用户模块")
 @RestController
 @Slf4j
-// @Component
 public class UserController {
 
     @Autowired
     private UserService userService;
 
-    @ApiOperation("查询用户")
     @PostMapping("/queryUser")
-    @XxlJob("run")
+    @XxlJob("queryUser")
     public ReturnT<String> queryUser(String param) {
         List<User> users = userService.queryUser();
-        System.out.println("users=" + users.toString());
-        log.debug("users={}", users);
-        // return users;
-        return ReturnT.SUCCESS;
-    }
-
-    @PostMapping("/run")
-    @XxlJob("queryUser")
-    public ReturnT<String> run(String param) {
-        List<User> users = userService.queryUser();
-        System.out.println("users=" + users.toString());
-        log.debug("users={}", users);
+        System.err.println("users=" + users.toString());
         // return users;
         return ReturnT.SUCCESS;
     }

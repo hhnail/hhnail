@@ -18,12 +18,18 @@ import java.util.List;
 @Slf4j
 public class XxlJobHandler {
 
-    @XxlJob("println")
-    public ReturnT<String> queryUser(String param) {
-        // List<User> users = userService.queryUser();
-        System.out.println("定时任务执行了==========================");
-        log.debug("定时任务执行了==========================");
-        // return users;
+    @XxlJob("XxlJobHandler4Println")
+    public ReturnT<String> println(String param) {
+        System.out.println("------------------定时任务执行了-----------XxlJobHandler4Println");
         return ReturnT.SUCCESS;
     }
+
+
+    // @XxlJob("onlyHandlerCan")
+    // public ReturnT<String> onlyHandlerCan(String param) {
+    //     System.out.println("定时任务执行了==========================");
+    //     log.debug("定时任务执行了==========================");
+    //     // return users;
+    //     return ReturnT.SUCCESS;
+    // }
 }
