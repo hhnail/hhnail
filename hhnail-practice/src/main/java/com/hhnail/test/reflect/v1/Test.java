@@ -11,13 +11,17 @@ import java.lang.reflect.Method;
 public class Test {
 
     public static void main(String[] args) throws Exception {
-        // test01();
+        test01();
         // test02();
-        test03();
+        // test03();
 
 
     }
 
+    /**
+     * 创建类并执行指定方法
+     * @throws Exception
+     */
     private static void test01() throws Exception {
         String[] myArgs = {"com.hhnail.test.reflect.v1.StrategyA", "execute", "Hello"};
 
@@ -32,6 +36,10 @@ public class Test {
         );
     }
 
+    /**
+     * 创建类并执行指定方法
+     * @throws Exception
+     */
     private static void test02() throws Exception {
         try {
             // 加载指定的类
@@ -49,6 +57,11 @@ public class Test {
         }
     }
 
+
+    /**
+     * 创建类并执行指定方法。封装
+     * @throws Exception
+     */
     private static void test03() throws Exception {
 
         String[] myArgs = {"com.hhnail.test.reflect.v1.StrategyA", "execute", "Hello22"};
@@ -56,7 +69,7 @@ public class Test {
         String className = myArgs[0];
         String methodName = myArgs[1];
         Object param = myArgs[2];
-        Strategy strategy = (Strategy) StrategyFactory.createObject(className, methodName, param);
+        Strategy strategy = (Strategy) StrategyFactory.createObjectAndExecute(className, methodName, param);
         // strategy.execute(myArgs[2]);
 
 
@@ -64,7 +77,7 @@ public class Test {
         className = myArgs[0];
         methodName = myArgs[1];
         param = myArgs[2];
-        strategy = (Strategy) StrategyFactory.createObject(className, methodName, param);
+        strategy = (Strategy) StrategyFactory.createObjectAndExecute(className, methodName, param);
     }
 
 
