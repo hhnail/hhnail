@@ -1,6 +1,6 @@
-package com.hhnail.util;
+package com.hhnail.web.util;
 
-public class HStringUtil {
+public class VStringUtil {
 
     public static void printSplitLine() {
         System.out.println("============================== 华丽的分割线 =============================");
