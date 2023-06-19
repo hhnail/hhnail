@@ -3,6 +3,8 @@ package com.hhnail.test.base;
 import org.junit.Test;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.YearMonth;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -82,6 +84,18 @@ public class DateTest {
         System.out.println(new Date("2023-01-04 15:21:00").getTime());
 
 
+    }
+
+
+    @Test
+    public void test07() throws Exception {
+        LocalDate now = LocalDate.now();  // 获取当前日期
+        int year = now.getYear();         // 获取当前年份
+        int month = now.getMonthValue();  // 获取当前月份
+        YearMonth yearMonth = YearMonth.of(year, month);  // 构造年月对象
+        LocalDate lastDayOfMonth = yearMonth.atEndOfMonth();  // 获取该月最后一天
+        String lastDayOfMonthStr = lastDayOfMonth.toString();  // 转换为字符串形式
+        System.out.println(lastDayOfMonthStr);  // 输出最后一天的日期
     }
 
 }
