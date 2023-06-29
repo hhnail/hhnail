@@ -2,6 +2,7 @@ package com.hhnail.test.base;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
+import com.hhnail.util.VStringUtil;
 import org.junit.Test;
 
 import java.util.*;
@@ -100,4 +101,24 @@ public class MapTest {
 
         System.out.println(JSONObject.toJSONString(newList, SerializerFeature.WriteMapNullValue));
     }
+
+    @Test
+    public void removeAll() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("a", "b");
+        map.put("a1", "b1");
+        map.put("a2", "b2");
+        System.out.println(map);
+        VStringUtil.printSplitLine();
+
+        Map<String, Object> map2 = new HashMap<>();
+        map2.put("a1", "b2");
+        map2.put("a2", "b2");
+        System.out.println(map2);
+        VStringUtil.printSplitLine();
+
+        map.replaceAll((key, value) -> map2.get(key));
+        System.out.println(map);
+    }
+
 }
