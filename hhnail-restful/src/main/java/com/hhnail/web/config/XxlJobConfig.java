@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Value;
  * @description: xxl-job config
  * @date 2023/4/24 19:31
  */
-@Configuration
+// @Configuration
 public class XxlJobConfig {
 
     private Logger logger = LoggerFactory.getLogger(XxlJobConfig.class);
