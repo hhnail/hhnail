@@ -18,7 +18,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = false)
-@TableName("wechat_follower")
+// @TableName("wechat_follower")
+@TableName("wechat_follower_dachoo")
 @ToString
 public class WeChatFollower {
 

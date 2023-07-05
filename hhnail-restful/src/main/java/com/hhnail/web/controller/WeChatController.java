@@ -48,8 +48,8 @@ public class WeChatController {
 
     @PostMapping("/saveWeChatFollowerList")
     public List<WeChatFollower> saveWeChatFollowerList(@RequestBody Map<String, Object> reqVO) {
-        List<WeChatFollower> weChatFollowerList = weChatService.saveWeChatFollowerList(reqVO);
-        return weChatFollowerList;
+        List<WeChatFollower> weChatFollowerList = weChatService.saveWeChatFollowerListBatch(reqVO);
+        return null;
     }
 
 
