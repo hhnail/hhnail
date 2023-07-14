@@ -46,6 +46,11 @@ public class WeChatController {
         return weChatFollowerList;
     }
 
+    /**
+     * 保存公众号关注用户列表
+     * @param reqVO
+     * @return
+     */
     @PostMapping("/saveWeChatFollowerList")
     public List<WeChatFollower> saveWeChatFollowerList(@RequestBody Map<String, Object> reqVO) {
         List<WeChatFollower> weChatFollowerList = weChatService.saveWeChatFollowerListBatch(reqVO);

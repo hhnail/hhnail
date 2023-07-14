@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hhnail.web.mapper.WeChatMapper">
+
+    <select id="truncateWechatFollower" resultType="com.hhnail.web.bean.HTable">
+        truncate table wechat_follower
+    </select>
+
+    <select id="truncateWechatFollowerDachoo" resultType="com.hhnail.web.bean.HTable">
+        truncate table wechat_follower_dachoo
+    </select>
+
+
+</mapper>

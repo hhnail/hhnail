@@ -9,6 +9,7 @@ import com.hhnail.web.service.IWeChatService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -156,7 +157,11 @@ public class WeChatServiceImpl implements IWeChatService {
     }
 
     @Override
+    @Transactional
     public List<WeChatFollower> saveWeChatFollowerListBatch(Map<String, Object> reqVO) {
+
+        weChatMapper.truncateWechatFollower();
+
         boolean flag = true;
         String next_openid = null;
         // String next_openid = "o1sGt1SA2pgnLJ7Za67n5ZaRKfNg";

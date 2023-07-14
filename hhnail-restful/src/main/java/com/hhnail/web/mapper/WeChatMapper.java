@@ -13,5 +13,8 @@ import java.util.List;
 @Repository
 public interface WeChatMapper extends BaseMapper<WeChatFollower> {
 
+    void truncateWechatFollower();
+
+    void truncateWechatFollowerDachoo();
 
 }
