@@ -3,6 +3,8 @@ package com.hhnail.web.controller;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.TimeUnit;
@@ -15,6 +17,7 @@ import java.util.concurrent.TimeUnit;
  */
 @RestController
 @Slf4j
+@RequestMapping("/test")
 public class TestController {
 
 
@@ -25,8 +28,22 @@ public class TestController {
     @Autowired
     private RedisTemplate redisTemplate;
 
+
+    /**
+     * 释放锁
+     *
+     * @param requestId
+     * @return
+     */
+    @GetMapping("/hello")
+    public String hello(String requestId) {
+        return "hello world!";
+    }
+
+
     /**
      * 加锁
+     *
      * @param requestId
      * @return
      */
@@ -40,6 +57,7 @@ public class TestController {
 
     /**
      * 释放锁
+     *
      * @param requestId
      * @return
      */

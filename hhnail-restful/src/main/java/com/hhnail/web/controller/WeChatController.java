@@ -2,20 +2,20 @@ package com.hhnail.web.controller;
 
 import com.hhnail.web.bean.WeChatFollower;
 import com.hhnail.web.service.IWeChatService;
+import com.hhnail.web.util.VEncryptUtil;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-import java.util.Map;
+import javax.websocket.Decoder;
+import javax.websocket.Encoder;
+import java.util.*;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 /**
  * @author r221587
@@ -37,8 +37,25 @@ public class WeChatController {
     private BlockingQueue<Runnable> workQueue = new LinkedBlockingQueue<>();
     private ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(corePoolSize, maxPoolSize, keepAliveTime, timeUnit, workQueue);
 
+    private static final String TOKEN = "hhnail";
+
     @Autowired
     IWeChatService weChatService;
+
+    @GetMapping("/checkSignature")
+    public boolean checkSignature(
+            @RequestParam("signature") String signature,
+            @RequestParam("timestamp") String timestamp,
+            @RequestParam("nonce") String nonce
+    ) {
+
+        String[] tmpArr = {TOKEN, timestamp, nonce};
+        Arrays.sort(tmpArr);
+        String tmpStr = String.join("", tmpArr);
+        tmpStr = VEncryptUtil.sha1(tmpStr);
+
+        return tmpStr.equals(signature);
+    }
 
     @PostMapping("/getWeChatFollowerList")
     public List<WeChatFollower> getWeChatFollowerList(@RequestBody Map<String, Object> reqVO) {
@@ -48,6 +65,7 @@ public class WeChatController {
 
     /**
      * 保存公众号关注用户列表
+     *
      * @param reqVO
      * @return
      */
