@@ -1,6 +1,6 @@
 package com.hhnail.web.service.impl;
 
-import com.hhnail.web.util.HTreeUtil;
+import com.hhnail.web.util.VvTreeUtil;
 import com.hhnail.web.bean.HColumn;
 import com.hhnail.web.bean.HTable;
 import com.hhnail.web.bean.TreeNode;
@@ -43,7 +43,7 @@ public class TreeServiceImpl implements TreeService {
 			voList.add(vo);
 		}
 		// 构建树结构
-		List<AntdTreeDataVO> treeData = HTreeUtil.createTree(voList);
+		List<AntdTreeDataVO> treeData = VvTreeUtil.createTree(voList);
 		return treeData;
 	}
 
