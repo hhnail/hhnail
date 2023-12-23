@@ -2,7 +2,7 @@ package com.hhnail.test.base;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.hhnail.util.VStringUtil;
+import com.hhnail.util.VvStringUtil;
 import org.junit.Test;
 
 import java.util.*;
@@ -109,13 +109,13 @@ public class MapTest {
         map.put("a1", "b1");
         map.put("a2", "b2");
         System.out.println(map);
-        VStringUtil.printSplitLine();
+        VvStringUtil.printSplitLine();
 
         Map<String, Object> map2 = new HashMap<>();
         map2.put("a1", "b2");
         map2.put("a2", "b2");
         System.out.println(map2);
-        VStringUtil.printSplitLine();
+        VvStringUtil.printSplitLine();
 
         map.replaceAll((key, value) -> map2.get(key));
         System.out.println(map);

@@ -1,12 +1,10 @@
 package com.hhnail.test.base;
 
-import com.hhnail.util.VStringUtil;
+import com.hhnail.util.VvStringUtil;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author r221587
@@ -24,13 +22,13 @@ public class ListTest {
         list.add("a2");
         list.add("a3");
         System.out.println(list);
-        VStringUtil.printSplitLine();
+        VvStringUtil.printSplitLine();
 
         List<String> list2 = new ArrayList<>();
         list2.add("a1");
         list2.add("a2");
         System.out.println(list2);
-        VStringUtil.printSplitLine();
+        VvStringUtil.printSplitLine();
 
         list.removeAll(list2);
         System.out.println(list);
