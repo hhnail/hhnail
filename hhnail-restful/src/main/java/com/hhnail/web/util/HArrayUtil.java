@@ -1,6 +1,6 @@
 package com.hhnail.web.util;
 
-import com.hhnail.design.pattern.creator.strategy.HComparable;
+// import com.hhnail.design.pattern.creator.strategy.HComparable;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -108,17 +108,17 @@ public class HArrayUtil {
      * 选择排序
      * 默认降序
      */
-    public static void selectionSort(HComparable[] arr) {
-        for (int j = 0; j < arr.length; j++) {
-            int minIndex = j;
-            for (int i = j; i < arr.length; i++) {
-                if (arr[i].compareTo(arr[minIndex]) < 0) {
-                    minIndex = i;
-                }
-            }
-            swap(arr, minIndex, j);
-        }
-    }
+    // public static void selectionSort(HComparable[] arr) {
+    //     for (int j = 0; j < arr.length; j++) {
+    //         int minIndex = j;
+    //         for (int i = j; i < arr.length; i++) {
+    //             if (arr[i].compareTo(arr[minIndex]) < 0) {
+    //                 minIndex = i;
+    //             }
+    //         }
+    //         swap(arr, minIndex, j);
+    //     }
+    // }
 
     /**
      * 在原数组的基础上交换数组内容
@@ -127,9 +127,9 @@ public class HArrayUtil {
      * @param index1 下标1
      * @param index2 下标2。即将下标1和2的元素交换
      */
-    public static void swap(HComparable[] arr, int index1, int index2) {
-        HComparable temp = arr[index1];
-        arr[index1] = arr[index2];
-        arr[index2] = temp;
-    }
+    // public static void swap(HComparable[] arr, int index1, int index2) {
+    //     HComparable temp = arr[index1];
+    //     arr[index1] = arr[index2];
+    //     arr[index2] = temp;
+    // }
 }

@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 // 扫描DAO包
 @MapperScan("com.hhnail.web.mapper")
-public class MptestApplication {
+public class HhnailApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MptestApplication.class, args);
+        SpringApplication.run(HhnailApplication.class, args);
     }
 
 }
