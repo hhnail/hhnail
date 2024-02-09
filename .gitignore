@@ -5,3 +5,5 @@
 *.imi
 .idea/workspace.xml
 ./.idea
+./.idea/*
+Maven*.xml
