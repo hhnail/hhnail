@@ -1,6 +1,6 @@
 package com.hhnail.multi_thread;
 
-import com.hhnail.util.VStringUtil;
+import com.hhnail.util.VvStringUtil;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -51,7 +51,7 @@ public class ThreadPoolTest {
         System.out.println(end - begin);
 
 
-        VStringUtil.printSplitLine();
+        VvStringUtil.printSplitLine();
 
         begin = System.currentTimeMillis();
         for (int i = 0; i < 10; i++) {

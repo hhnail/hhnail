@@ -1,6 +1,6 @@
 package com.hhnail.test;
 
-import com.hhnail.util.VStringUtil;
+import com.hhnail.util.VvStringUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +21,7 @@ public class ParamTest {
         System.out.println(str);
 
 
-        VStringUtil.printSplitLine();
+        VvStringUtil.printSplitLine();
 
         Map<String, Object> map = new HashMap<>();
         map.put("k2", "ewwfwf112222");
@@ -29,7 +29,7 @@ public class ParamTest {
         test.changeQuote4MapTest(map);
         System.out.println(map);
 
-        VStringUtil.printSplitLine();
+        VvStringUtil.printSplitLine();
 
         Map<String, Object> map2 = new HashMap<>();
         map2.put("k2", "ewwfwf112222");
@@ -37,7 +37,7 @@ public class ParamTest {
         test.changeQuote4MapTest2(map2);
         System.out.println(map2);
 
-        VStringUtil.printSplitLine();
+        VvStringUtil.printSplitLine();
 
         int i = 666;
         System.out.println(i);

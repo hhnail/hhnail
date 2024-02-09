@@ -4,7 +4,7 @@ import com.hhnail.web.bean.HColumn;
 import com.hhnail.web.bean.HTable;
 import com.hhnail.web.bean.TreeNode;
 import com.hhnail.web.service.TreeService;
-import com.hhnail.web.util.HTreeUtil;
+import com.hhnail.web.util.VvTreeUtil;
 import com.hhnail.web.vo.resp.AntdTreeDataVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +26,7 @@ public class TreeController {
 
 		// 构建树结构
 		// List<TreeNode> resp = HTreeUtil.createTree(treeData);
-		List<TreeNode> resp = HTreeUtil.createCascaderTree(treeData);
+		List<TreeNode> resp = VvTreeUtil.createCascaderTree(treeData);
 
 		log.debug("tree data = {}", resp);
 

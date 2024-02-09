@@ -7,3 +7,17 @@
 ./.idea
 ./.idea/*
 Maven*.xml
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/compiler.xml
+/.idea/encodings.xml
+/hhnail.iml
+/hhnail-practice/hhnail-practice.iml
+/.idea/jarRepositories.xml
+#排除maven xml变动依赖
+/.idea/libraries/*.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/hhnail-restful/mptest.iml
+/.idea/uiDesigner.xml
+/.idea/vcs.xml
