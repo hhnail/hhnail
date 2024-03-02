@@ -25,6 +25,7 @@ public class XxlJobHandler {
     }
 
 
+
     // @XxlJob("onlyHandlerCan")
     // public ReturnT<String> onlyHandlerCan(String param) {
     //     System.out.println("定时任务执行了==========================");
