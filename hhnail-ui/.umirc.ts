@@ -1,11 +1,11 @@
-import { defineConfig } from 'umi';
+import {defineConfig} from 'umi';
 
 export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
   routes: [
-    { path: '/', component: '@/pages/index' },
+    {path: '/', component: '@/pages/index'},
     // { path: '/products', component: '@/pages/products' },
   ],
   fastRefresh: {},
@@ -13,7 +13,7 @@ export default defineConfig({
     '/api01': {
       'target': 'http://localhost:8080/',
       'changeOrigin': true,
-      'pathRewrite': { '/api01' : '' },
+      'pathRewrite': {'/api01': ''},
     },
   },
 });

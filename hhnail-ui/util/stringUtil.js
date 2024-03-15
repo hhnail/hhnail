@@ -9,18 +9,18 @@
  * separator：-   221209 -> 22-12-09
  *
  */
-const getTimeFromDecimal = (date,separator) => {
-    let template = '0000000'
-    let result = ''
-    const strDate = date.toString()
-    template = template.substr(0, template.length - strDate.length) + strDate
-    let index = 1;
-    for (const tempChar of template) {
-        result = result + tempChar
-        if (index == 2 || index == 4) {
-            result = result + separator
-        }
-        index++
+const getTimeFromDecimal = (date, separator) => {
+  let template = '0000000'
+  let result = ''
+  const strDate = date.toString()
+  template = template.substr(0, template.length - strDate.length) + strDate
+  let index = 1;
+  for (const tempChar of template) {
+    result = result + tempChar
+    if (index == 2 || index == 4) {
+      result = result + separator
     }
-    return result
+    index++
+  }
+  return result
 }

@@ -6,7 +6,7 @@ export default function IndexPage() {
   return (
     <HashRouter>
       <Switch>
-        <Route path="/" render={() => <HomePage />}/>
+        <Route path="/" render={() => <HomePage/>}/>
       </Switch>
     </HashRouter>
   )

@@ -41,7 +41,7 @@ export default function HomePage() {
             style={{
               color: 'white',
               fontSize: 20,
-              fontWeight:2000,
+              fontWeight: 2000,
             }}>hv-data</span>
           <Icon style={{
             fontSize: 60,
