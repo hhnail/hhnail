@@ -61,4 +61,12 @@ public class VvDateUtil {
 
         return localTime1.isBefore(localTime2) ? date1 : date2;
     }
+
+    public static Date timestamp2Date(Long timestamp) {
+        if (timestamp == null) {
+            return null;
+        }
+        return new Date(timestamp);
+    }
+
 }

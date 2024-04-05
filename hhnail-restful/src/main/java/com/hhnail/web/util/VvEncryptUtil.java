@@ -11,7 +11,7 @@ import java.security.NoSuchAlgorithmException;
  * @description: 加密工具类
  * @date 2023/10/15 17:37
  */
-public class VEncryptUtil {
+public class VvEncryptUtil {
 
     /**
      * sha1加密

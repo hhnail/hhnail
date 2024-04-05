@@ -2,20 +2,17 @@ package com.hhnail.web.controller;
 
 import com.hhnail.web.bean.WeChatFollower;
 import com.hhnail.web.service.IWeChatService;
-import com.hhnail.web.util.VEncryptUtil;
+import com.hhnail.web.util.VvEncryptUtil;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.websocket.Decoder;
-import javax.websocket.Encoder;
 import java.util.*;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
 /**
  * @author r221587
@@ -52,7 +49,7 @@ public class WeChatController {
         String[] tmpArr = {TOKEN, timestamp, nonce};
         Arrays.sort(tmpArr);
         String tmpStr = String.join("", tmpArr);
-        tmpStr = VEncryptUtil.sha1(tmpStr);
+        tmpStr = VvEncryptUtil.sha1(tmpStr);
 
         return tmpStr.equals(signature);
     }

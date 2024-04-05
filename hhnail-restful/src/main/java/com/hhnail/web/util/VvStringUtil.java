@@ -8,7 +8,9 @@ import org.xml.sax.InputSource;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.StringReader;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class VvStringUtil {
@@ -138,12 +140,34 @@ public class VvStringUtil {
         NodeList nodeList = document.getDocumentElement().getChildNodes();
         for (int i = 0; i < nodeList.getLength(); i++) {
             Element element = (Element) nodeList.item(i);
-            map.put(element.getNodeName(), element.getTextContent());
-        }
+            if (element.getChildNodes().getLength() == 1) {
+                map.put(element.getNodeName(), element.getTextContent());
+            } else if (element.getChildNodes().getLength() > 1) { // 说明下面有多个元素。可能是map或者list
+                NodeList level2 = element.getChildNodes();
+                NodeList nodeListLevel2 = element.getChildNodes();
+                Map<String, Object> mapLevel2 = new HashMap<>();
+                List<String> listLevel2 = new ArrayList<>();
 
+                if (VvStringUtil.safeEquals(
+                        level2.item(0).getNodeName(),
+                        level2.item(1).getNodeName())
+                ) {
+                    for (int j = 0; j < nodeListLevel2.getLength(); j++) {
+                        Element elementLevel2 = (Element) nodeListLevel2.item(j);
+                        listLevel2.add(elementLevel2.getTextContent());
+                    }
+                    map.put(element.getNodeName(), listLevel2);
+                } else {
+                    for (int j = 0; j < nodeListLevel2.getLength(); j++) {
+                        Element elementLevel2 = (Element) nodeListLevel2.item(j);
+                        mapLevel2.put(elementLevel2.getNodeName(), elementLevel2.getTextContent());
+                    }
+                    map.put(element.getNodeName(), mapLevel2);
+                }
+            }
+        }
         return map;
     }
-
 
     public static String safeGetFromMap(Map<String, Object> map, String key) throws Exception {
         if (map == null) {
