@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hhnail.web.mapper.SensorsUserMapper">
+    <insert id="insertSensorsUser">
+        INSERT INTO sensors_user
+        (id,
+         first_id,
+         phone_number,
+         user_tag_sxzjsfxxgkc,
+         user_tag_gq30tsfxxgkc)
+        VALUES (#{user.id},
+                #{user.firstId},
+                #{user.phoneNumber},
+                #{user.userTagSxzjsfxxgkc},
+                #{user.userTagGq30tsfxxgkc})
+    </insert>
+
+
+    <insert id="insertSensorsUserList">
+        INSERT INTO sensors_user
+        <trim prefix=" (" suffix=") " suffixOverrides=", ">
+            id,
+            first_id,
+            phone_number,
+            update_time,
+            user_tag_sxzjsfsygcpdbgn,
+            user_tag_gq30tsfsycpdbgn,
+            user_tag_sxzjsfxxgkc,
+            user_tag_gq30tsfxxgkc,
+            user_tag_zj30tygbnxcpgn,
+            user_tag_cjsygbnxcp,
+            user_tag_cjyggzzc,
+            user_tag_cjsygyhzn,
+        </trim>
+        VALUES
+        <foreach collection="users" item="user" index="index" separator=",">
+            (
+            #{user.id},
+            #{user.firstId},
+            #{user.phoneNumber},
+            #{user.updateTime},
+            #{user.userTagSxzjsfsygcpdbgn},
+            #{user.userTagGq30tsfsycpdbgn},
+            #{user.userTagSxzjsfxxgkc},
+            #{user.userTagGq30tsfxxgkc},
+            #{user.userTagZj30tygbnxcpgn},
+            #{user.userTagCjsygbnxcp},
+            #{user.userTagCjyggzzc},
+            #{user.userTagCjsygyhzn}
+            )
+        </foreach>
+    </insert>
+
+    <delete id="truncateSensorsUser">
+        truncate table sensors_user;
+    </delete>
+
+    <select id="getNewUpdateTime" resultType="java.lang.String">
+        select max(update_time) - #{detal_hours} * 60 * 60
+        from sensors_user
+    </select>
+
+
+    <insert id="insertOrUpdateSensorsUser">
+        insert into sensors_user(id,
+                                 first_id,
+                                 update_time,
+                                 phone_number,
+                                 user_tag_sxzjsfsygcpdbgn,
+                                 user_tag_gq30tsfsycpdbgn,
+                                 user_tag_sxzjsfxxgkc,
+                                 user_tag_gq30tsfxxgkc,
+                                 user_tag_zj30tygbnxcpgn,
+                                 user_tag_cjsygbnxcp,
+                                 user_tag_cjyggzzc,
+                                 user_tag_cjsygyhzn)
+            value (
+                   #{user.id},
+                   #{user.firstId},
+                   #{user.updateTime},
+                   #{user.phoneNumber},
+                   #{user.userTagSxzjsfsygcpdbgn},
+                   #{user.userTagGq30tsfsycpdbgn},
+                   #{user.userTagSxzjsfxxgkc},
+                   #{user.userTagGq30tsfxxgkc},
+                   #{user.userTagZj30tygbnxcpgn},
+                   #{user.userTagCjsygbnxcp},
+                   #{user.userTagCjyggzzc},
+                   #{user.userTagCjsygyhzn}
+            )
+        ON DUPLICATE KEY
+            UPDATE id                       = #{user.id},
+                   first_id                 = #{user.firstId},
+                   update_time              = #{user.updateTime},
+                   phone_number             = #{user.phoneNumber},
+                   user_tag_sxzjsfsygcpdbgn = #{user.userTagSxzjsfsygcpdbgn},
+                   user_tag_gq30tsfsycpdbgn = #{user.userTagGq30tsfsycpdbgn},
+                   user_tag_sxzjsfxxgkc     = #{user.userTagSxzjsfxxgkc},
+                   user_tag_gq30tsfxxgkc    = #{user.userTagGq30tsfxxgkc},
+                   user_tag_zj30tygbnxcpgn  = #{user.userTagZj30tygbnxcpgn},
+                   user_tag_cjsygbnxcp      = #{user.userTagCjsygbnxcp},
+                   user_tag_cjyggzzc        = #{user.userTagCjyggzzc},
+                   user_tag_cjsygyhzn       = #{user.userTagCjsygyhzn}
+    </insert>
+</mapper>
