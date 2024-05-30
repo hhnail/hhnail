@@ -1,9 +1,12 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/hhnail
-    username: root
-    password: root
+#    url: jdbc:mysql://localhost:3306/hhnail
+#    username: root
+#    password: root
+    url: jdbc:mysql://66.18.11.91:666/jhdb
+    username: j
+    password: j
 
 server:
   port: 18080 # web服务端口号
