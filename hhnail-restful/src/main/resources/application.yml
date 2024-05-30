@@ -28,3 +28,7 @@ server:
 mybatis-plus:
     # 自定义xml文件路径
     mapper-locations: classpath:/mapper/*Mapper.xml
+
+jasypt:
+  encryptor:
+    password: userpoolv

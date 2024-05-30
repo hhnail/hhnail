@@ -139,6 +139,13 @@
             <version>1.7</version> <!-- 请使用最新的版本 -->
         </dependency>
 
+        <!--Jasypt-->
+        <dependency>
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
