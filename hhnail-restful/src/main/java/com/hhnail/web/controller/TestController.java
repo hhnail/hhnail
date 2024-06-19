@@ -80,11 +80,17 @@ public class TestController {
 
     @PostMapping("/jasypt")
     public void encryptor() {
-        String url = encryptor.encrypt("172.26.1.26");
-        String name = encryptor.encrypt("6379");
-        String password = encryptor.encrypt("123123");
+
+        System.out.println( "-----------------------------------------------------------------");
+
+        String url = encryptor.encrypt("jdbc:mysql://172.18.11.91:30234/jhdb?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai");
+        String name = encryptor.encrypt("jh_user");
+        String password = encryptor.encrypt("jOPM(tHTI18ryXtD");
         System.out.println(url + "----------------");
         System.out.println(name + "----------------");
         System.out.println(password + "----------------");
+
+        System.out.println( "-----------------------------------------------------------------");
+
     }
 }
